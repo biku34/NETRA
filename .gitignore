@@ -1,0 +1,33 @@
+# --- Secrets: never commit real credentials (examples stay tracked) ---
+**/.env
+**/.env.local
+!**/.env.example
+
+# --- Python ---
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+
+# --- Node / Next / Vite ---
+**/node_modules/
+src/frontend/.next/
+src/frontend/out/
+src/frontend/tsconfig.tsbuildinfo
+src/portal/dist/
+src/portal/dev-dist/
+
+# --- Regenerated data artefacts (src/data/csv is the tracked source of truth) ---
+**/*.db
+**/*.parquet
+src/data/generation_manifest.json
+
+# --- OS / editor / scratch ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.backup/
+
+# local tooling config
+.claude/

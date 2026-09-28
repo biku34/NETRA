@@ -1,0 +1,37 @@
+# Bob AI Hackathon — Submission metadata (READ BY EVALUATORS FIRST)
+# Replace the CHANGE-ME values before you submit. Every field below must stay non-empty.
+
+team:
+  name: "CHANGE-ME (your team name)"      # e.g. "Team Netra"
+  track: "AI"                             # AI | DevOps | Sustainability | Open
+  lead:
+    name: "Bikram Sadhukhan"              # CHANGE-ME if wrong
+    email: "smartseal.bikram@gmail.com"   # CHANGE-ME if wrong
+  members:
+    - name: "Bikram Sadhukhan"            # CHANGE-ME — list every member
+      email: "smartseal.bikram@gmail.com"
+
+submission:
+  title: "Netra — Predictive Crime Hotspot Intelligence"
+  problem_statement: >
+    A district Station House Officer (SHO) has limited patrol units and must decide,
+    every week, where to place them. Today that decision leans on memory and last
+    week's incident list, so crews are spread thin and repeat hotspots are missed.
+    Netra turns ~6 months of station crime records into an explainable, ranked map of
+    the micro-zones most likely to see an incident in the coming week, so the SHO can
+    concentrate patrols where they matter and justify the call.
+  solution_summary: >
+    Netra bins incidents into H3 hexagons, fits a Poisson / negative-binomial GLM on a
+    leakage-free hex-week panel (KDE density, near-repeat signal, recency, seasonality,
+    festival calendar), and predicts each zone's probability of at least one incident
+    next week with per-driver contributions. A rolling-origin backtest proves the model
+    beats random and persistence baselines. An OpenAI-compatible LLM assistant answers
+    questions grounded strictly in each zone's on-screen data, and a redeployment brief
+    turns the ranking into a concrete, officer-approved patrol plan. It ships as one
+    module inside the Netra platform (FIR intelligence + hotspots).
+  key_features:
+    - "Explainable weekly hotspot prediction (Poisson/NB GLM) with per-zone driver contributions"
+    - "Rolling-origin backtest page proving accuracy (PAI ~3.4x vs random, PEI, vs persistence)"
+    - "Grounded zone chat assistant (OpenAI-compatible LLM) that answers only from page data, hardened against prompt injection"
+    - "Weekly SHO patrol-redeployment brief, adjustable in plain language and approved by the officer"
+    - "Interactive H3 risk map, spike alerts, and geo-correlated news/events"

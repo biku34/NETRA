@@ -1,0 +1,488 @@
+{
+  "_comment": "Single source of truth for the local rule engine. Read by src/lib/extract.ts (browser fallback) and backend/app/extract.py. Patterns use syntax common to JavaScript and Python regular expressions. 'indic' terms are matched as plain substrings because word boundaries do not apply to those scripts.",
+  "sections": [
+    {
+      "pattern": "IT Act 66",
+      "type": "Cyber Fraud"
+    },
+    {
+      "pattern": "BNS 31[89]\\b",
+      "type": "Cheating"
+    },
+    {
+      "pattern": "BNS 331",
+      "type": "Burglary"
+    },
+    {
+      "pattern": "BNS 30[35]\\b",
+      "type": "Theft"
+    },
+    {
+      "pattern": "BNS 304",
+      "type": "Snatching"
+    },
+    {
+      "pattern": "BNS 309",
+      "type": "Robbery"
+    },
+    {
+      "pattern": "NDPS",
+      "type": "Narcotics"
+    },
+    {
+      "pattern": "BNS 11[58]\\b",
+      "type": "Assault"
+    },
+    {
+      "pattern": "BNS 351",
+      "type": "Criminal Intimidation"
+    },
+    {
+      "pattern": "BNS 7[4-9]\\b",
+      "type": "Crime Against Women"
+    },
+    {
+      "pattern": "BNS 85\\b",
+      "type": "Domestic Cruelty"
+    },
+    {
+      "pattern": "Dowry Prohibition",
+      "type": "Dowry Harassment"
+    },
+    {
+      "pattern": "BNS 329",
+      "type": "Criminal Trespass"
+    },
+    {
+      "pattern": "BNS 281|BNS 106",
+      "type": "Road Accident"
+    },
+    {
+      "pattern": "BNS 137",
+      "type": "Kidnapping"
+    },
+    {
+      "pattern": "BNS 191",
+      "type": "Rioting"
+    },
+    {
+      "pattern": "BNS 336",
+      "type": "Forgery"
+    },
+    {
+      "pattern": "BNS 316",
+      "type": "Criminal Breach of Trust"
+    },
+    {
+      "pattern": "BNS 308",
+      "type": "Extortion"
+    },
+    {
+      "pattern": "Arms Act",
+      "type": "Arms Offence"
+    },
+    {
+      "pattern": "BNS 111\\b",
+      "type": "Organised Crime"
+    },
+    {
+      "pattern": "Gujarat Prohibition Act",
+      "type": "Prohibition Offence"
+    },
+    {
+      "pattern": "Land Grabbing",
+      "type": "Land Grabbing"
+    },
+    {
+      "pattern": "Money-Lenders Act",
+      "type": "Illegal Money Lending"
+    },
+    {
+      "pattern": "Public Examination",
+      "type": "Exam Malpractice"
+    },
+    {
+      "pattern": "Emigration Act",
+      "type": "Immigration Fraud"
+    },
+    {
+      "pattern": "Mines and Minerals",
+      "type": "Illegal Mining"
+    }
+  ],
+  "text": [
+    {
+      "pattern": "\\b(assaulted|beaten|attacked|slapped)\\b",
+      "flags": "i",
+      "type": "Assault"
+    },
+    {
+      "pattern": "\\b(motorcycle|scooter|vehicle)\\b[^.]*\\b(stolen|missing)\\b",
+      "flags": "i",
+      "type": "Vehicle Theft"
+    }
+  ],
+  "mo": [
+    {
+      "tag": "phone_call",
+      "pattern": "\\b(phone call|a call|caller|calls)\\b",
+      "flags": "i",
+      "indic": [
+        "फोन कॉल",
+        "ફોન"
+      ]
+    },
+    {
+      "tag": "fake_kyc",
+      "pattern": "\\bkyc\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "impersonation",
+      "pattern": "\\b(posed as|posing as|claiming to be|introduced himself as|saying he was)\\b",
+      "flags": "i",
+      "indic": [
+        "बनकर"
+      ]
+    },
+    {
+      "tag": "remote_access_app",
+      "pattern": "\\b(anydesk|remote access)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "otp_theft",
+      "pattern": "\\botp\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "mule_account",
+      "pattern": "\\b(mule|beneficiary account)\\b",
+      "flags": "i",
+      "indic": [
+        "म्यूल"
+      ]
+    },
+    {
+      "tag": "account_block_threat",
+      "pattern": "\\b(blocked|suspended|suspension|frozen|account block|closure)\\b",
+      "flags": "i",
+      "indic": [
+        "खाता बंद"
+      ]
+    },
+    {
+      "tag": "fake_sim",
+      "pattern": "\\bsim\\b",
+      "flags": "i",
+      "indic": [
+        "सिम"
+      ]
+    },
+    {
+      "tag": "grill_cutting",
+      "pattern": "\\bgrill\\b",
+      "flags": "i",
+      "indic": [
+        "ग्रिल",
+        "গ্রিল"
+      ]
+    },
+    {
+      "tag": "almirah_broken",
+      "pattern": "\\balmirah\\b",
+      "flags": "i",
+      "indic": [
+        "আলমারি"
+      ]
+    },
+    {
+      "tag": "locked_house",
+      "pattern": "\\blocked house\\b",
+      "flags": "i",
+      "indic": [
+        "তালাবন্ধ"
+      ]
+    },
+    {
+      "tag": "owners_away",
+      "pattern": "\\b((family|owners?|complainant) (was |were )?away|had gone|gone to)\\b",
+      "flags": "i",
+      "indic": [
+        "থাকাকালীন"
+      ]
+    },
+    {
+      "tag": "night",
+      "pattern": "\\b(night|\\d{1,2}(:\\d{2})? am)\\b",
+      "flags": "i",
+      "indic": [
+        "রাতে",
+        "रात",
+        "રાત્રે"
+      ]
+    },
+    {
+      "tag": "evening",
+      "pattern": "\\bevening\\b",
+      "flags": "i",
+      "indic": [
+        "शाम",
+        "સાંજે"
+      ]
+    },
+    {
+      "tag": "motorcycle",
+      "pattern": "\\b(motorcycle|bike)\\b",
+      "flags": "i",
+      "indic": [
+        "मोटरसाइकिल",
+        "মোটরসাইকেল",
+        "બાઇક",
+        "મોટરસાઇકલ"
+      ]
+    },
+    {
+      "tag": "no_number_plate",
+      "pattern": "\\bnumber plate\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "gold_jewellery",
+      "pattern": "\\bgold\\b",
+      "flags": "i",
+      "indic": [
+        "सोने",
+        "সোনার",
+        "સોનાની",
+        "સોનાનો"
+      ]
+    },
+    {
+      "tag": "heroin",
+      "pattern": "\\bheroin\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "synthetic_drug",
+      "pattern": "\\b(mephedrone|MD drug|methamphetamine)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "small_packets",
+      "pattern": "\\bsmall packets\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "courier",
+      "pattern": "\\b(courier|deliver|delivers|delivery|delivering)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "near_school_college",
+      "pattern": "\\b(near|outside)\\b[^.]{0,40}\\b(school|college|hostel|institute|ITI)\\b|\\bstudents\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "snatching",
+      "pattern": "\\bsnatch(ed|ing)?\\b",
+      "flags": "i",
+      "indic": [
+        "झपट",
+        "ઝૂંટવી"
+      ]
+    },
+    {
+      "tag": "sharp_weapon",
+      "pattern": "\\b(knife|kirpan|sharp weapon|sword)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "firearm",
+      "pattern": "\\b(pistol|fired|firearm|revolver)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "forged_documents",
+      "pattern": "\\b(forged|fake invoices|fake visa|bogus)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "card_skimming",
+      "pattern": "\\b(skimming|cloned)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "card_swap",
+      "pattern": "\\b(swapped|exchanged) (the|his|her) (ATM )?card\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "parked_vehicle",
+      "pattern": "\\bparked\\b",
+      "flags": "i",
+      "indic": [
+        "પાર્ક"
+      ]
+    },
+    {
+      "tag": "online_job_offer",
+      "pattern": "\\b(part-time job|job offer)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "investment_app",
+      "pattern": "\\b(trading app|investment app|stock tips|IPO allotment)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "social_media_contact",
+      "pattern": "\\b(whatsapp|telegram|instagram|messaging app)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "dowry_demand",
+      "pattern": "\\bdowry\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "liquor_smuggling",
+      "pattern": "\\b(liquor|IMFL|whisky|beer)\\b",
+      "flags": "i",
+      "indic": [
+        "દારૂ"
+      ]
+    },
+    {
+      "tag": "hidden_compartment",
+      "pattern": "\\b(hidden|concealed|secret) (under|in|inside|behind|cavity|compartment)\\b",
+      "flags": "i",
+      "indic": []
+    },
+    {
+      "tag": "highway",
+      "pattern": "\\b(highway|NH-?\\s?\\d+|expressway)\\b",
+      "flags": "i",
+      "indic": [
+        "હાઇવે"
+      ]
+    },
+    {
+      "tag": "goods_truck",
+      "pattern": "\\b(truck|tanker|container|tempo)\\b",
+      "flags": "i",
+      "indic": [
+        "ટ્રક"
+      ]
+    },
+    {
+      "tag": "high_interest_loan",
+      "pattern": "\\b(interest|moneylender|usury)\\b",
+      "flags": "i",
+      "indic": [
+        "વ્યાજ"
+      ]
+    },
+    {
+      "tag": "elderly_victim",
+      "pattern": "\\b(elderly|pensioner|retired|senior citizen)\\b",
+      "flags": "i",
+      "indic": [
+        "बुजुर्ग",
+        "વૃદ્ધ"
+      ]
+    },
+    {
+      "tag": "followed_from_bank",
+      "pattern": "\\bfollow(ed|ing)\\b[^.]{0,60}\\bbank\\b",
+      "flags": "i",
+      "indic": [
+        "બેંકથી પીછો"
+      ]
+    },
+    {
+      "tag": "car_glass_break",
+      "pattern": "\\b(window )?glass\\b[^.]{0,40}\\bbroken\\b|\\bbroke the [^.]{0,20}glass\\b",
+      "flags": "i",
+      "indic": [
+        "કાચ તોડી"
+      ]
+    },
+    {
+      "tag": "cash_bag",
+      "pattern": "\\bcash bag\\b|\\bbag with cash\\b",
+      "flags": "i",
+      "indic": [
+        "રોકડનો થેલો"
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "pattern": "\\bafternoon\\b",
+      "flags": "i",
+      "indic": [
+        "બપોરે"
+      ]
+    }
+  ],
+  "aliasMarkers": [
+    "@",
+    "alias",
+    "urf",
+    "उर्फ",
+    "ওরফে",
+    "ઉર્ફે"
+  ],
+  "unidentified": "\\b(unknown|not known|withheld)\\b",
+  "nameFillers": [
+    "kr",
+    "kumar",
+    "sk",
+    "md",
+    "shri",
+    "sri",
+    "smt",
+    "late",
+    "bhai",
+    "ben"
+  ],
+  "nameSuffixes": [
+    "bhai",
+    "ben",
+    "sinh",
+    "kumar",
+    "lal"
+  ],
+  "aliasTrailingWords": [
+    "તરીકે",
+    "বলে",
+    "নামে",
+    "के",
+    "को",
+    "नामक",
+    "as",
+    "was",
+    "is",
+    "has",
+    "and",
+    "of"
+  ]
+}

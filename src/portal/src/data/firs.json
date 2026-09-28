@@ -1,0 +1,3504 @@
+[
+  {
+    "fir_id": "0040/2026",
+    "fir_reg_no": "32699002260040",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Chinsurah",
+    "date_of_fir": "2026-03-06T09:00:00",
+    "occurrence": {
+      "date": "2026-03-04",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Complainant residence, Pipulpati, Chinsurah"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66C - Identity theft",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Shyamal Banerjee",
+      "phone_masked": "+91-60XXX00000"
+    },
+    "accused": [
+      {
+        "name": "Pradip Mondal",
+        "relative_name": "Late Haradhan Mondal (father)",
+        "address": "Vill Sindarjori, PS Karmatanr, Dist Jamtara, Jharkhand"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, a retired school teacher, received a phone call from a person claiming to be a bank KYC officer who said his savings account would be blocked today. On instruction he installed the AnyDesk app and shared the OTP received on his mobile. Rs 2,85,000 was debited in four transactions. Bank statement shows the money credited to an account opened with the KYC of one Pradip Mondal of Jamtara.",
+    "language": "en",
+    "mo_summary": "Caller posed as bank KYC officer, threatened account block, made elderly victim install AnyDesk remote access app and share OTP; money moved in multiple transactions to a mule account.",
+    "investigating_officer": {
+      "name": "Arindam Dutta",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation, beneficiary account frozen",
+    "lat": 22.891,
+    "lng": 88.38,
+    "seed_group": "cluster-A"
+  },
+  {
+    "fir_id": "0077/2026",
+    "fir_reg_no": "32701011260077",
+    "state": "West Bengal",
+    "district": "Howrah",
+    "police_station": "Shibpur",
+    "date_of_fir": "2026-04-12T10:13:00",
+    "occurrence": {
+      "date": "2026-04-11",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Complainant residence, Mandirtala, Shibpur, Howrah"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66D - Cheating by personation using computer resource",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Rina Mukherjee",
+      "phone_masked": "+91-61XXX07873"
+    },
+    "accused": [
+      {
+        "name": "P. Mandal",
+        "relative_name": "",
+        "address": "Jamtara, Jharkhand"
+      },
+      {
+        "name": "Seetaram Mondal",
+        "relative_name": "",
+        "address": "Jamtara, Jharkhand"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant states that on 11.04.2026 morning an unknown caller introduced himself as KYC verification officer of her bank and told her the account would be suspended. She was made to download a remote access application (AnyDesk) and read out the OTP. Rs 1,40,000 was withdrawn. SIM used for the call and the beneficiary mule account are registered in the names P. Mandal and Seetaram Mondal.",
+    "language": "en",
+    "mo_summary": "Phone call impersonating bank KYC verification officer, account suspension threat, remote access app installed, OTP obtained from elderly woman, funds routed to mule accounts.",
+    "investigating_officer": {
+      "name": "Debasish Roy",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.56,
+    "lng": 88.31,
+    "seed_group": "cluster-A"
+  },
+  {
+    "fir_id": "0114/2026",
+    "fir_reg_no": "10328005260114",
+    "state": "Bihar",
+    "district": "Patna",
+    "police_station": "Gandhi Maidan",
+    "date_of_fir": "2026-05-23T11:26:00",
+    "occurrence": {
+      "date": "2026-05-20",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Complainant residence, Exhibition Road, Patna"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66C - Identity theft",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Ramesh Prasad Sinha",
+      "phone_masked": "+91-62XXX15746"
+    },
+    "accused": [
+      {
+        "name": "Pradeep Kr. Mandal @ Pappu",
+        "relative_name": "Haradhan Mandal (father)",
+        "address": "Sindarjori, Karmatanr, Jamtara, Jharkhand"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant is a pensioner. A caller saying he was from the bank KYC cell told him his account would be blocked unless KYC was updated immediately. He was asked to install AnyDesk and enter the OTP. Rs 3,10,000 was transferred out in three transactions. Cyber cell traced the beneficiary account to Pradeep Kr. Mandal alias Pappu.",
+    "language": "en",
+    "mo_summary": "Fake bank KYC update call to pensioner, account block threat, AnyDesk remote access and OTP used to transfer money in several transactions to mule account.",
+    "investigating_officer": {
+      "name": "Neha Kumari",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation, notice issued to bank",
+    "lat": 25.606,
+    "lng": 85.138,
+    "seed_group": "cluster-A"
+  },
+  {
+    "fir_id": "0151/2026",
+    "fir_reg_no": "29572031260151",
+    "state": "Karnataka",
+    "district": "Bengaluru City",
+    "police_station": "Whitefield",
+    "date_of_fir": "2026-06-28T12:39:00",
+    "occurrence": {
+      "date": "2026-06-27",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Complainant apartment, ITPL Main Road, Whitefield"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Lakshmi Narayanan",
+      "phone_masked": "+91-63XXX23619"
+    },
+    "accused": [
+      {
+        "name": "Pradeep Mandal",
+        "relative_name": "",
+        "address": "Jamtara, Jharkhand"
+      },
+      {
+        "name": "Sitaram Mandal",
+        "relative_name": "",
+        "address": "Karmatanr, Jamtara, Jharkhand"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant received a call stating her bank KYC had expired and the account would be frozen by evening. The caller sent a link to install a remote access app and asked for the OTP for verification. Rs 4,75,000 was debited. The mule account holder is Sitaram Mandal and the calling number is subscribed in the name Pradeep Mandal.",
+    "language": "en",
+    "mo_summary": "Caller claimed bank KYC expired and account would be frozen, sent link for remote access app, took OTP from elderly woman and moved funds to mule account.",
+    "investigating_officer": {
+      "name": "Shwetha Gowda",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 12.966,
+    "lng": 77.746,
+    "seed_group": "cluster-A"
+  },
+  {
+    "fir_id": "0188/2026",
+    "fir_reg_no": "34512003260188",
+    "state": "Jharkhand",
+    "district": "Jamtara",
+    "police_station": "Karmatanr",
+    "date_of_fir": "2026-07-15T13:52:00",
+    "occurrence": {
+      "date": "2026-07-15",
+      "time_period": "Pahar 2 (06:00-09:00 hrs)",
+      "place": "Gram Sindarjori, PS Karmatanr, Dist Jamtara"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66C - Identity theft",
+      "IT Act 66D - Cheating by personation using computer resource",
+      "BNS 111 - Organised crime",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "SI Rakesh Oraon (on behalf of State)",
+      "phone_masked": "+91-64XXX31492"
+    },
+    "accused": [
+      {
+        "name": "Pradeep Mandal @ Pappu",
+        "relative_name": "Haradhan Mandal (father)",
+        "address": "Gram Sindarjori, PS Karmatanr, Jamtara"
+      },
+      {
+        "name": "Sitaram Mandal",
+        "relative_name": "Haradhan Mandal (father)",
+        "address": "Gram Sindarjori, PS Karmatanr, Jamtara"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "दिनांक 15.07.2026 को गुप्त सूचना के आधार पर ग्राम सिंदरजोरी में छापेमारी की गई। अभियुक्त प्रदीप मंडल उर्फ पप्पू एवं सीताराम मंडल को मौके से पकड़ा गया। पूछताछ में बताया कि वे बैंक KYC अधिकारी बनकर बुजुर्ग लोगों को फोन कॉल करते थे, खाता बंद होने का डर दिखाकर AnyDesk ऐप डाउनलोड करवाते थे और OTP लेकर खाते से रुपये निकाल लेते थे। मौके से 14 फर्जी सिम, 6 मोबाइल, 9 एटीएम कार्ड एवं म्यूल खातों की पासबुक बरामद।",
+    "language": "hi",
+    "mo_summary": "Raid on secret information; accused posed as bank KYC officers on phone calls to elderly people, threatened account closure, made them install AnyDesk and took OTP; fake SIM cards, ATM cards and mule account passbooks recovered.",
+    "investigating_officer": {
+      "name": "Rakesh Oraon",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested, remanded to judicial custody",
+    "lat": 24.081,
+    "lng": 86.71,
+    "seed_group": "cluster-A"
+  },
+  {
+    "fir_id": "0225/2026",
+    "fir_reg_no": "32688001260225",
+    "state": "West Bengal",
+    "district": "Nadia",
+    "police_station": "Krishnanagar Kotwali",
+    "date_of_fir": "2026-02-09T14:05:00",
+    "occurrence": {
+      "date": "2026-02-08",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Nagendranagar, Krishnanagar, Nadia"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Tapati Saha",
+      "phone_masked": "+91-65XXX39365"
+    },
+    "accused": [
+      {
+        "name": "Bablu Hajra",
+        "relative_name": "",
+        "address": "Address not known"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "গত ০৮/০২/২০২৬ তারিখ রাতে অভিযোগকারীর পরিবার বিয়েবাড়িতে থাকাকালীন তালাবন্ধ বাড়ির জানালার গ্রিল কেটে দুষ্কৃতীরা ঘরে ঢোকে। আলমারি ভেঙে সোনার গয়না ও নগদ ৪০,০০০ টাকা চুরি করে। প্রতিবেশী একটি মোটরসাইকেলে দুজনকে পালাতে দেখেন। CCTV footage থেকে একজনকে Bablu Hajra ওরফে কালা বাবলু বলে শনাক্ত করা হয়েছে।",
+    "language": "bn",
+    "mo_summary": "Family away at a wedding; window grill of locked house cut at night, almirah broken, gold ornaments and cash stolen; two men escaped on a motorcycle.",
+    "investigating_officer": {
+      "name": "Subrata Biswas",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.401,
+    "lng": 88.501,
+    "seed_group": "cluster-B"
+  },
+  {
+    "fir_id": "0262/2026",
+    "fir_reg_no": "32676001260262",
+    "state": "West Bengal",
+    "district": "Purba Bardhaman",
+    "police_station": "Bardhaman Sadar",
+    "date_of_fir": "2026-04-20T15:18:00",
+    "occurrence": {
+      "date": "2026-04-19",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Khosbagan, Bardhaman town"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Dr Anirban Kundu",
+      "phone_masked": "+91-66XXX47238"
+    },
+    "accused": [
+      {
+        "name": "Babloo Hazra @ Kala Bablu",
+        "relative_name": "",
+        "address": "Reportedly of Kalna area"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant and family had gone to Digha for the weekend. On return they found the rear window grill cut and the steel almirah broken open. Gold ornaments weighing about 110 grams and Rs 65,000 cash stolen. A neighbour heard a motorcycle around 1 am. Fingerprint lifted from the almirah matched Babloo Hazra alias Kala Bablu.",
+    "language": "en",
+    "mo_summary": "Owners away for the weekend; rear window grill of locked house cut at night, almirah broken, gold ornaments and cash stolen; motorcycle heard leaving.",
+    "investigating_officer": {
+      "name": "Tanmoy Sarkar",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.243,
+    "lng": 87.863,
+    "seed_group": "cluster-B"
+  },
+  {
+    "fir_id": "0299/2026",
+    "fir_reg_no": "32699007260299",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-06-15T16:31:00",
+    "occurrence": {
+      "date": "2026-06-14",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Jirat Station Road, PS Balagarh, Hooghly"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Sukumar Ghosh",
+      "phone_masked": "+91-67XXX55111"
+    },
+    "accused": [
+      {
+        "name": "Bablu Hazra",
+        "relative_name": "Late Nemai Hazra (father)",
+        "address": "Vill Purbasthali, Purba Bardhaman"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant had gone with family to his in-laws house in Kalyani. During the night unknown miscreants cut the grill of the kitchen window of his locked house, broke the almirah and took away gold ornaments of about 80 grams and Rs 30,000 in cash. Local people saw two persons leaving on a black motorcycle. One of them was identified from CCTV as Bablu Hazra.",
+    "language": "en",
+    "mo_summary": "Family away at relatives; kitchen window grill of locked house cut at night, almirah broken, gold ornaments and cash stolen; two persons left on a motorcycle.",
+    "investigating_officer": {
+      "name": "Suvojit Pal",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.127,
+    "lng": 88.47,
+    "seed_group": "cluster-B"
+  },
+  {
+    "fir_id": "0336/2026",
+    "fir_reg_no": "34509001260336",
+    "state": "Jharkhand",
+    "district": "Dhanbad",
+    "police_station": "Dhanbad Sadar",
+    "date_of_fir": "2026-08-02T17:44:00",
+    "occurrence": {
+      "date": "2026-08-02",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Hirapur, Dhanbad"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house",
+      "Arms Act 25 - Possession of illegal arms",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Sanjay Agarwal",
+      "phone_masked": "+91-68XXX62984"
+    },
+    "accused": [
+      {
+        "name": "Bablu Hazra @ Kala Bablu",
+        "relative_name": "Nemai Hazra (father)",
+        "address": "Purbasthali, Purba Bardhaman, West Bengal"
+      },
+      {
+        "name": "Sk Mintu",
+        "relative_name": "",
+        "address": "Address not known"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Night patrol party intercepted two persons on a motorcycle near Hirapur at about 2:30 am. On search, a grill cutter, gold ornaments and a country-made pistol were recovered. The ornaments were identified by the complainant, whose locked house was broken into the same night through a cut window grill while the family was away at a wedding.",
+    "language": "en",
+    "mo_summary": "Locked house entered at night by cutting window grill while family was at a wedding; gold ornaments stolen; accused caught on motorcycle with grill cutter and country-made pistol.",
+    "investigating_officer": {
+      "name": "Amit Kumar Singh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested, property recovered",
+    "lat": 23.802,
+    "lng": 86.437,
+    "seed_group": "cluster-B"
+  },
+  {
+    "fir_id": "0373/2026",
+    "fir_reg_no": "03221001260373",
+    "state": "Punjab",
+    "district": "Tarn Taran",
+    "police_station": "Tarn Taran City",
+    "date_of_fir": "2026-05-05T09:57:00",
+    "occurrence": {
+      "date": "2026-05-05",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Near Government Senior Secondary School, Jandiala Road, Tarn Taran"
+    },
+    "acts_sections": [
+      "NDPS Act 21 - Possession of manufactured drugs",
+      "NDPS Act 29 - Abetment and criminal conspiracy"
+    ],
+    "complainant": {
+      "name": "ASI on naka duty (on behalf of State)",
+      "phone_masked": "+91-69XXX70857"
+    },
+    "accused": [
+      {
+        "name": "Gurpreet Singh @ Gopi",
+        "relative_name": "Sukhdev Singh (father)",
+        "address": "Vill Naushehra Pannuan, Tarn Taran"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "During naka checking the accused riding a motorcycle without number plate tried to flee on seeing the police party. On search 52 grams of heroin packed in 40 small packets was recovered from the tool box. Accused disclosed he delivers the packets to college students as a courier for a supplier.",
+    "language": "en",
+    "mo_summary": "Accused on motorcycle without number plate caught at naka near a school; heroin in small packets recovered; works as courier delivering to students.",
+    "investigating_officer": {
+      "name": "Balwinder Singh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested, sample sent to FSL",
+    "lat": 31.46,
+    "lng": 74.935,
+    "seed_group": "cluster-C"
+  },
+  {
+    "fir_id": "0410/2026",
+    "fir_reg_no": "03202009260410",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "police_station": "Chheharta",
+    "date_of_fir": "2026-06-30T10:10:00",
+    "occurrence": {
+      "date": "2026-06-30",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Near ITI ground, Chheharta, Amritsar"
+    },
+    "acts_sections": [
+      "NDPS Act 21 - Possession of manufactured drugs",
+      "NDPS Act 29 - Abetment and criminal conspiracy",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "SI Jaspreet Kaur (on behalf of State)",
+      "phone_masked": "+91-70XXX78730"
+    },
+    "accused": [
+      {
+        "name": "Gurprit Singh",
+        "relative_name": "Sukhdev Singh (father)",
+        "address": "Naushehra Pannuan, Tarn Taran"
+      },
+      {
+        "name": "Lovepreet Singh @ Love",
+        "relative_name": "",
+        "address": "Chheharta, Amritsar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "On secret information that two youths are selling heroin to students near the ITI ground, a raid was conducted. Both accused were on a motorcycle with the number plate removed. 38 grams heroin in 30 small packets and Rs 22,500 drug money recovered.",
+    "language": "en",
+    "mo_summary": "Two accused on motorcycle with number plate removed selling heroin in small packets to students near an institute; drug money recovered.",
+    "investigating_officer": {
+      "name": "Jaspreet Kaur",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 31.638,
+    "lng": 74.813,
+    "seed_group": "cluster-C"
+  },
+  {
+    "fir_id": "0447/2026",
+    "fir_reg_no": "03210005260447",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "police_station": "Division No. 5",
+    "date_of_fir": "2026-08-21T11:23:00",
+    "occurrence": {
+      "date": "2026-08-21",
+      "time_period": "Pahar 7 (21:00-24:00 hrs)",
+      "place": "Near Government College, Division No. 5 area, Ludhiana"
+    },
+    "acts_sections": [
+      "NDPS Act 21 - Possession of manufactured drugs",
+      "NDPS Act 29 - Abetment and criminal conspiracy"
+    ],
+    "complainant": {
+      "name": "ASI Harpal Singh Gill (on behalf of State)",
+      "phone_masked": "+91-71XXX86603"
+    },
+    "accused": [
+      {
+        "name": "Gurpreet S. @ Gopi",
+        "relative_name": "",
+        "address": "Tarn Taran"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Patrolling party stopped a motorcycle without number plate near the college hostel gate. Rider identified himself as Gurpreet alias Gopi. 61 grams heroin packed in small packets recovered from a bag. Accused stated he came as a courier to deliver to hostel students.",
+    "language": "en",
+    "mo_summary": "Accused on motorcycle without number plate near college hostel; heroin in small packets recovered; acting as courier delivering to students.",
+    "investigating_officer": {
+      "name": "Harpal Singh Gill",
+      "rank": "Assistant Sub-Inspector"
+    },
+    "status": "Accused arrested, sample sent to FSL",
+    "lat": 30.892,
+    "lng": 75.844,
+    "seed_group": "cluster-C"
+  },
+  {
+    "fir_id": "0484/2024",
+    "fir_reg_no": "03210005240484",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "police_station": "Division No. 5",
+    "date_of_fir": "2024-10-12T12:36:00",
+    "occurrence": {
+      "date": "2024-10-12",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Ferozepur Road, Ludhiana"
+    },
+    "acts_sections": [
+      "BNS 115(2) - Voluntarily causing hurt",
+      "BNS 126(2) - Wrongful restraint",
+      "BNS 351(2) - Criminal intimidation"
+    ],
+    "complainant": {
+      "name": "Rohit Verma",
+      "phone_masked": "+91-72XXX94476"
+    },
+    "accused": [
+      {
+        "name": "Gurpreet Singh",
+        "relative_name": "Jagtar Singh (father)",
+        "address": "Model Town, Ludhiana"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant states that after a minor collision between his car and the accused's SUV, the accused stopped him on the road, slapped him and threatened him with dire consequences in front of passers-by.",
+    "language": "en",
+    "mo_summary": "Road rage after minor collision; accused stopped the complainant on the road, slapped and threatened him.",
+    "investigating_officer": {
+      "name": "Harpal Singh Gill",
+      "rank": "Assistant Sub-Inspector"
+    },
+    "status": "Charge sheet filed",
+    "lat": 30.894,
+    "lng": 75.846,
+    "seed_group": "control"
+  },
+  {
+    "fir_id": "0521/2026",
+    "fir_reg_no": "10336001260521",
+    "state": "Bihar",
+    "district": "Nawada",
+    "police_station": "Nawada Town",
+    "date_of_fir": "2026-05-04T13:49:00",
+    "occurrence": {
+      "date": "2026-05-02",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Complainant residence, Nawada town"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Umesh Chandra Lal",
+      "phone_masked": "+91-73XXX02349"
+    },
+    "accused": [
+      {
+        "name": "Anil Yadav",
+        "relative_name": "",
+        "address": "Warisaliganj, Nawada"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant got a call from a person claiming to be bank KYC officer who said the account will be blocked. He installed AnyDesk as told and shared the OTP. Rs 95,000 debited. Beneficiary account stands in the name of Anil Yadav of Warisaliganj.",
+    "language": "en",
+    "mo_summary": "Caller posed as bank KYC officer, account block threat, elderly victim installed AnyDesk remote access app and shared OTP; money sent to mule account.",
+    "investigating_officer": {
+      "name": "Vikash Ranjan",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 24.876,
+    "lng": 85.538,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0558/2026",
+    "fir_reg_no": "34507001260558",
+    "state": "Jharkhand",
+    "district": "Deoghar",
+    "police_station": "Deoghar Town",
+    "date_of_fir": "2026-06-10T14:02:00",
+    "occurrence": {
+      "date": "2026-06-09",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Complainant residence, Castairs Town, Deoghar"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66C - Identity theft",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Meena Devi",
+      "phone_masked": "+91-74XXX10222"
+    },
+    "accused": [
+      {
+        "name": "Ravi Shankar Tiwari",
+        "relative_name": "",
+        "address": "Madhupur, Deoghar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A caller told the complainant that her electricity connection and bank KYC were pending and the account would be suspended. She downloaded a remote access app from the link sent and gave the OTP. Rs 1,20,000 lost. SIM is in the name of Ravi Shankar Tiwari.",
+    "language": "en",
+    "mo_summary": "Fake KYC pending call with account suspension threat, remote access app link, OTP obtained and money transferred out.",
+    "investigating_officer": {
+      "name": "Sunil Murmu",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 24.479,
+    "lng": 86.694,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0595/2026",
+    "fir_reg_no": "32677004260595",
+    "state": "West Bengal",
+    "district": "Paschim Bardhaman",
+    "police_station": "Asansol South",
+    "date_of_fir": "2026-05-25T15:15:00",
+    "occurrence": {
+      "date": "2026-05-24",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Hutton Road, Asansol"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house"
+    ],
+    "complainant": {
+      "name": "Pradip Kumar Jha",
+      "phone_masked": "+91-75XXX18095"
+    },
+    "accused": [
+      {
+        "name": "Tapan Bagdi",
+        "relative_name": "",
+        "address": "Kulti, Paschim Bardhaman"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "While the complainant was away on pilgrimage his locked house was broken into at night by cutting the window grill. Gold ornaments and a laptop stolen from the almirah. Accused Tapan Bagdi was later caught selling the laptop.",
+    "language": "en",
+    "mo_summary": "Owner away on pilgrimage; window grill of locked house cut at night, gold ornaments and laptop stolen from almirah.",
+    "investigating_officer": {
+      "name": "Prabir Chatterjee",
+      "rank": "Assistant Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 23.682,
+    "lng": 86.966,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0072/2026",
+    "fir_reg_no": "10328005260072",
+    "state": "Bihar",
+    "district": "Patna",
+    "police_station": "Gandhi Maidan",
+    "date_of_fir": "2026-07-06T16:28:00",
+    "occurrence": {
+      "date": "2026-07-05",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Rajendra Nagar, Patna"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 305 - Theft in a dwelling house",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Alok Ranjan",
+      "phone_masked": "+91-76XXX25968"
+    },
+    "accused": [
+      {
+        "name": "Manoj Paswan",
+        "relative_name": "",
+        "address": "Fatuha, Patna"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Family had gone to the native village. At night the grill of the back window of the locked house was cut, almirah broken and gold ornaments and cash of Rs 50,000 stolen. Manoj Paswan identified from CCTV; he left on a motorcycle.",
+    "language": "en",
+    "mo_summary": "Family away at native village; back window grill of locked house cut at night, almirah broken, gold ornaments and cash stolen; accused left on motorcycle.",
+    "investigating_officer": {
+      "name": "Neha Kumari",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 25.613,
+    "lng": 85.145,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0109/2026",
+    "fir_reg_no": "03202009260109",
+    "state": "Punjab",
+    "district": "Amritsar",
+    "police_station": "Chheharta",
+    "date_of_fir": "2026-07-18T17:41:00",
+    "occurrence": {
+      "date": "2026-07-18",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Near bus stand, Chheharta, Amritsar"
+    },
+    "acts_sections": [
+      "NDPS Act 21 - Possession of manufactured drugs"
+    ],
+    "complainant": {
+      "name": "ASI on patrol (on behalf of State)",
+      "phone_masked": "+91-77XXX33841"
+    },
+    "accused": [
+      {
+        "name": "Harjinder Kumar",
+        "relative_name": "",
+        "address": "Kot Khalsa, Amritsar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Accused was stopped on a motorcycle near the bus stand on suspicion. 20 grams heroin in small packets recovered from his pocket. He stated it was for delivery to customers.",
+    "language": "en",
+    "mo_summary": "Accused on motorcycle found with heroin in small packets meant for delivery to customers.",
+    "investigating_officer": {
+      "name": "Jaspreet Kaur",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 31.631,
+    "lng": 74.806,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0146/2026",
+    "fir_reg_no": "32699007260146",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-05-29T09:54:00",
+    "occurrence": {
+      "date": "2026-05-16",
+      "time_period": "Pahar 1 (00:00 hrs)",
+      "place": "Village Sripur Bazar, PO Sripur Bazar, PS Balagarh, Dist Hooghly"
+    },
+    "acts_sections": [
+      "BNS 126(2) - Wrongful restraint",
+      "BNS 3(5) - Common intention",
+      "BNS 329(3) - House trespass",
+      "BNS 351(2) - Criminal intimidation",
+      "BNS 352 - Intentional insult to provoke breach of peace",
+      "BNS 76 - Assault with intent to disrobe a woman",
+      "BNS 79 - Insulting modesty of a woman by word/gesture"
+    ],
+    "complainant": {
+      "name": "Kakuli Sadhukhan",
+      "phone_masked": "+91-78XXX41714"
+    },
+    "accused": [
+      {
+        "name": "Biswajit Sadhukhan",
+        "relative_name": "Chandi Charan Sadhukhan (father)",
+        "address": "Village Sripur Bazar, Balagarh, Hooghly"
+      },
+      {
+        "name": "Soma Sadhukhan",
+        "relative_name": "Biswajit Sadhukhan (husband)",
+        "address": "Village Sripur Bazar, Balagarh, Hooghly"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "46-60",
+      "relation_to_accused": "Neighbour"
+    },
+    "narrative": "Accused persons entered the complainant's premises over a boundary dispute, physically assaulted her, used abusive language, tore her clothing and threatened her with dire consequences. She sustained bleeding injury and was treated at Balagarh Ahamedpur Rural Hospital. Written complaint was filed after treatment.",
+    "language": "en",
+    "mo_summary": "Neighbours entered complainant's premises over a boundary dispute, assaulted her, abused her, tore her clothing and threatened her.",
+    "investigating_officer": {
+      "name": "Suvojit Pal",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Case registered, investigation directed to I.O.",
+    "lat": 23.128,
+    "lng": 88.471,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0183/2025",
+    "fir_reg_no": "32699007250183",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2025-12-03T10:07:00",
+    "occurrence": {
+      "date": "2025-12-03",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Balagarh ferry ghat parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Niranjan Das",
+      "phone_masked": "+91-79XXX49587"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant parked his motorcycle at the ferry ghat parking and went across the river. On return after two hours the motorcycle was missing. Handle lock was engaged.",
+    "language": "en",
+    "mo_summary": "Parked motorcycle stolen from ferry ghat parking in the evening by breaking the handle lock.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.13,
+    "lng": 88.473,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0220/2026",
+    "fir_reg_no": "32699007260220",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-01-18T11:20:00",
+    "occurrence": {
+      "date": "2026-01-18",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Guptipara bazar parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Subhas Malik",
+      "phone_masked": "+91-80XXX57460"
+    },
+    "accused": [
+      {
+        "name": "Raju Bagh",
+        "relative_name": "",
+        "address": "Guptipara, Balagarh"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant's motorcycle parked outside the market was stolen in the evening. Accused Raju Bagh was caught by local people two days later while trying to sell the vehicle.",
+    "language": "en",
+    "mo_summary": "Motorcycle parked outside the market stolen in the evening; accused caught trying to sell the vehicle.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Charge sheet filed",
+    "lat": 23.132,
+    "lng": 88.475,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0257/2026",
+    "fir_reg_no": "32699007260257",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-02-22T12:33:00",
+    "occurrence": {
+      "date": "2026-02-21",
+      "time_period": "Pahar 7 (21:00-24:00 hrs)",
+      "place": "Village Dumurdaha, PS Balagarh"
+    },
+    "acts_sections": [
+      "BNS 85 - Cruelty by husband or his relatives",
+      "Dowry Prohibition Act 4 - Demanding dowry",
+      "BNS 115(2) - Voluntarily causing hurt"
+    ],
+    "complainant": {
+      "name": "Mousumi Bag",
+      "phone_masked": "+91-81XXX65333"
+    },
+    "accused": [
+      {
+        "name": "Sanjib Bag",
+        "relative_name": "Gopal Bag (father)",
+        "address": "Village Dumurdaha, Balagarh"
+      },
+      {
+        "name": "Shefali Bag",
+        "relative_name": "Gopal Bag (husband)",
+        "address": "Village Dumurdaha, Balagarh"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "18-30",
+      "relation_to_accused": "Husband and in-laws"
+    },
+    "narrative": "Complainant states that since marriage her husband and mother-in-law have been demanding Rs 2 lakh and a motorcycle as dowry. On the night of occurrence she was beaten and driven out of the matrimonial home.",
+    "language": "en",
+    "mo_summary": "Husband and mother-in-law demanded dowry, beat the complainant and drove her out of the matrimonial home.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.113,
+    "lng": 88.456,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0294/2026",
+    "fir_reg_no": "32699007260294",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-03-29T13:46:00",
+    "occurrence": {
+      "date": "2026-03-29",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "STKK Road near Jirat crossing"
+    },
+    "acts_sections": [
+      "BNS 281 - Rash driving on a public way",
+      "BNS 106(1) - Causing death by negligence"
+    ],
+    "complainant": {
+      "name": "Bikash Mondal",
+      "phone_masked": "+91-82XXX73206"
+    },
+    "accused": [
+      {
+        "name": "Driver of truck WB-41-XXXX (name not known)",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A speeding truck driven in a rash and negligent manner hit the complainant's father who was crossing the road on a bicycle. He was declared brought dead at the hospital. The driver fled leaving the truck.",
+    "language": "en",
+    "mo_summary": "Speeding truck hit a cyclist crossing the road; victim died; driver fled leaving the vehicle.",
+    "investigating_officer": {
+      "name": "Suvojit Pal",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Vehicle seized, driver absconding",
+    "lat": 23.115,
+    "lng": 88.458,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0331/2026",
+    "fir_reg_no": "32699007260331",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-04-29T14:59:00",
+    "occurrence": {
+      "date": "2026-04-27",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Village Somra, PS Balagarh"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 336(3) - Forgery for purpose of cheating"
+    ],
+    "complainant": {
+      "name": "Haripada Santra",
+      "phone_masked": "+91-83XXX81079"
+    },
+    "accused": [
+      {
+        "name": "Dilip Koley",
+        "relative_name": "",
+        "address": "Somra, Balagarh"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Accused took Rs 6 lakh from the complainant promising to sell 5 katha of land and handed over a deed which was later found to be forged. The land belongs to a third person.",
+    "language": "en",
+    "mo_summary": "Accused took advance for sale of land and handed over forged documents; land belonged to a third person.",
+    "investigating_officer": {
+      "name": "Suvojit Pal",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.117,
+    "lng": 88.46,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0368/2026",
+    "fir_reg_no": "32699007260368",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-07-22T15:12:00",
+    "occurrence": {
+      "date": "2026-07-22",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Balagarh station approach road"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Priyanka Hazra",
+      "phone_masked": "+91-84XXX88952"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant's scooter parked near the railway station was found missing when she returned from work in the evening.",
+    "language": "en",
+    "mo_summary": "Scooter parked near the railway station stolen in the evening.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.119,
+    "lng": 88.462,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0405/2026",
+    "fir_reg_no": "32699007260405",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-08-30T16:25:00",
+    "occurrence": {
+      "date": "2026-08-30",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Guptipara bazar parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Tarak Nath Pal",
+      "phone_masked": "+91-85XXX96825"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Motorcycle parked outside the market during evening hours was stolen. This is the third vehicle theft reported from the same market parking.",
+    "language": "en",
+    "mo_summary": "Motorcycle parked outside the market stolen in the evening.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.121,
+    "lng": 88.464,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0442/2026",
+    "fir_reg_no": "32699002260442",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Chinsurah",
+    "date_of_fir": "2026-01-09T17:38:00",
+    "occurrence": {
+      "date": "2026-01-09",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Khadina More, Chinsurah"
+    },
+    "acts_sections": [
+      "BNS 304(2) - Snatching"
+    ],
+    "complainant": {
+      "name": "Anjali Dey",
+      "phone_masked": "+91-86XXX04698"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Two youths on a motorcycle snatched the complainant's gold chain while she was returning from the market and sped away towards Bandel.",
+    "language": "en",
+    "mo_summary": "Two men on a motorcycle snatched a gold chain from a woman walking back from the market in daytime.",
+    "investigating_officer": {
+      "name": "Arindam Dutta",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.901,
+    "lng": 88.39,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0479/2026",
+    "fir_reg_no": "32699002260479",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Chinsurah",
+    "date_of_fir": "2026-06-03T09:51:00",
+    "occurrence": {
+      "date": "2026-06-02",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Hooghly More, Chinsurah"
+    },
+    "acts_sections": [
+      "BNS 191(2) - Rioting",
+      "BNS 115(2) - Voluntarily causing hurt",
+      "BNS 324(4) - Mischief causing damage"
+    ],
+    "complainant": {
+      "name": "Sk Nasiruddin",
+      "phone_masked": "+91-87XXX12571"
+    },
+    "accused": [
+      {
+        "name": "Bapi Das",
+        "relative_name": "",
+        "address": "Hooghly More, Chinsurah"
+      },
+      {
+        "name": "Sanjay Shaw",
+        "relative_name": "",
+        "address": "Hooghly More, Chinsurah"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Following a dispute over a club donation, a group of 8-10 persons led by the accused attacked the complainant's shop with bamboo sticks, damaged goods and injured two employees.",
+    "language": "en",
+    "mo_summary": "Group attacked a shop with sticks after a dispute over club donation, damaged goods and injured employees.",
+    "investigating_officer": {
+      "name": "Arindam Dutta",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.903,
+    "lng": 88.392,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0516/2026",
+    "fir_reg_no": "32699002260516",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Chinsurah",
+    "date_of_fir": "2026-08-14T10:04:00",
+    "occurrence": {
+      "date": "2026-08-11",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Online, complainant at Chinsurah"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "IT Act 66D - Cheating by personation using computer resource"
+    ],
+    "complainant": {
+      "name": "Sourav Pal",
+      "phone_masked": "+91-88XXX20444"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant was offered a part-time job of rating hotels through a messaging app. After small initial payouts he was induced to deposit Rs 1,80,000 as prepaid tasks, which was never returned.",
+    "language": "en",
+    "mo_summary": "Online part-time job offer through messaging app; small payouts first, then victim induced to deposit money for prepaid tasks.",
+    "investigating_officer": {
+      "name": "Arindam Dutta",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.905,
+    "lng": 88.394,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0553/2026",
+    "fir_reg_no": "32701011260553",
+    "state": "West Bengal",
+    "district": "Howrah",
+    "police_station": "Shibpur",
+    "date_of_fir": "2026-02-14T11:17:00",
+    "occurrence": {
+      "date": "2026-02-14",
+      "time_period": "Pahar 7 (21:00-24:00 hrs)",
+      "place": "Foreshore Road, Shibpur"
+    },
+    "acts_sections": [
+      "BNS 309(4) - Robbery",
+      "BNS 118(1) - Voluntarily causing hurt by dangerous weapon",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Imran Ali",
+      "phone_masked": "+91-89XXX28317"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Three persons stopped the complainant's goods vehicle at night, threatened the driver with a knife and robbed Rs 48,000 collection money and a mobile phone.",
+    "language": "en",
+    "mo_summary": "Three men stopped a goods vehicle at night, threatened driver with a knife and robbed cash and mobile phone.",
+    "investigating_officer": {
+      "name": "Debasish Roy",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.574,
+    "lng": 88.324,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0590/2026",
+    "fir_reg_no": "32688001260590",
+    "state": "West Bengal",
+    "district": "Nadia",
+    "police_station": "Krishnanagar Kotwali",
+    "date_of_fir": "2026-03-18T12:30:00",
+    "occurrence": {
+      "date": "2026-03-17",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Ghurni, Krishnanagar"
+    },
+    "acts_sections": [
+      "BNS 137(2) - Kidnapping"
+    ],
+    "complainant": {
+      "name": "Shampa Biswas",
+      "phone_masked": "+91-90XXX36190"
+    },
+    "accused": [
+      {
+        "name": "Rahul Sarkar",
+        "relative_name": "",
+        "address": "Ghurni, Krishnanagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "Under 18",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Complainant's minor daughter left for tuition and did not return. It is suspected that accused Rahul Sarkar, who used to follow her, has enticed her away.",
+    "language": "en",
+    "mo_summary": "Minor girl went missing on the way to tuition; suspected to be enticed away by a known youth.",
+    "investigating_officer": {
+      "name": "Subrata Biswas",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Victim recovered, accused arrested",
+    "lat": 23.409,
+    "lng": 88.509,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0067/2026",
+    "fir_reg_no": "32676001260067",
+    "state": "West Bengal",
+    "district": "Purba Bardhaman",
+    "police_station": "Bardhaman Sadar",
+    "date_of_fir": "2026-07-08T13:43:00",
+    "occurrence": {
+      "date": "2026-07-08",
+      "time_period": "Pahar 2 (06:00-09:00 hrs)",
+      "place": "G.T. Road ATM kiosk, Bardhaman"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "IT Act 66C - Identity theft",
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property"
+    ],
+    "complainant": {
+      "name": "Branch Manager, nationalised bank",
+      "phone_masked": "+91-91XXX44063"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A skimming device and pinhole camera were found fitted on the ATM machine during routine servicing. Several customers reported unauthorised withdrawals from cloned cards.",
+    "language": "en",
+    "mo_summary": "Skimming device and pinhole camera fitted on ATM; cards cloned and used for unauthorised withdrawals.",
+    "investigating_officer": {
+      "name": "Tanmoy Sarkar",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.251,
+    "lng": 87.871,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0104/2026",
+    "fir_reg_no": "32677004260104",
+    "state": "West Bengal",
+    "district": "Paschim Bardhaman",
+    "police_station": "Asansol South",
+    "date_of_fir": "2026-04-05T14:56:00",
+    "occurrence": {
+      "date": "2026-04-05",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Kalipahari coal siding, Asansol"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Security Officer, colliery",
+      "phone_masked": "+91-92XXX51936"
+    },
+    "accused": [
+      {
+        "name": "Bhola Bauri",
+        "relative_name": "",
+        "address": "Kalipahari, Asansol"
+      },
+      {
+        "name": "Kartik Bauri",
+        "relative_name": "",
+        "address": "Kalipahari, Asansol"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Security staff caught two persons at night loading stolen coal from the siding on bicycles. About 4 quintal coal recovered.",
+    "language": "en",
+    "mo_summary": "Coal stolen from the siding at night and carried away on bicycles.",
+    "investigating_officer": {
+      "name": "Prabir Chatterjee",
+      "rank": "Assistant Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 23.674,
+    "lng": 86.958,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0141/2026",
+    "fir_reg_no": "34509001260141",
+    "state": "Jharkhand",
+    "district": "Dhanbad",
+    "police_station": "Dhanbad Sadar",
+    "date_of_fir": "2026-05-14T15:09:00",
+    "occurrence": {
+      "date": "2026-05-13",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Bank More, Dhanbad"
+    },
+    "acts_sections": [
+      "BNS 308(2) - Extortion",
+      "BNS 351(2) - Criminal intimidation",
+      "Arms Act 25 - Possession of illegal arms"
+    ],
+    "complainant": {
+      "name": "Rajiv Khemka",
+      "phone_masked": "+91-93XXX59809"
+    },
+    "accused": [
+      {
+        "name": "Unknown caller claiming to be from a gang",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, a businessman, received calls demanding Rs 20 lakh as protection money. Two unknown persons later fired one round outside his showroom and fled.",
+    "language": "en",
+    "mo_summary": "Extortion calls demanding protection money from a businessman, followed by firing outside his showroom.",
+    "investigating_officer": {
+      "name": "Amit Kumar Singh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.789,
+    "lng": 86.424,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0178/2026",
+    "fir_reg_no": "10328005260178",
+    "state": "Bihar",
+    "district": "Patna",
+    "police_station": "Gandhi Maidan",
+    "date_of_fir": "2026-06-18T16:22:00",
+    "occurrence": {
+      "date": "2026-06-18",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Boring Road, Patna"
+    },
+    "acts_sections": [
+      "BNS 304(2) - Snatching"
+    ],
+    "complainant": {
+      "name": "Sunita Kumari",
+      "phone_masked": "+91-94XXX67682"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "दिनांक 18.06.2026 की शाम करीब 7 बजे वादिनी बाजार से घर लौट रही थी। मोटरसाइकिल सवार दो अज्ञात युवकों ने पीछे से आकर गले से सोने की चेन झपट ली और तेजी से भाग गए। वादिनी गिर गई जिससे हाथ में चोट आई।",
+    "language": "hi",
+    "mo_summary": "Two unknown men on a motorcycle snatched a gold chain from a woman returning from the market in the evening; she fell and was injured.",
+    "investigating_officer": {
+      "name": "Neha Kumari",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 25.607,
+    "lng": 85.139,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0215/2026",
+    "fir_reg_no": "10336001260215",
+    "state": "Bihar",
+    "district": "Nawada",
+    "police_station": "Nawada Town",
+    "date_of_fir": "2026-03-09T17:35:00",
+    "occurrence": {
+      "date": "2026-03-08",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Village Hisua, Nawada"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Ram Pravesh Yadav",
+      "phone_masked": "+91-95XXX75555"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Two buffaloes tied in the cattle shed outside the complainant's house were stolen during the night. Tyre marks of a pickup van were found nearby.",
+    "language": "en",
+    "mo_summary": "Cattle stolen from shed at night and taken away in a pickup van.",
+    "investigating_officer": {
+      "name": "Vikash Ranjan",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 24.878,
+    "lng": 85.54,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0252/2026",
+    "fir_reg_no": "03221001260252",
+    "state": "Punjab",
+    "district": "Tarn Taran",
+    "police_station": "Tarn Taran City",
+    "date_of_fir": "2026-04-22T09:48:00",
+    "occurrence": {
+      "date": "2026-04-22",
+      "time_period": "Pahar 7 (21:00-24:00 hrs)",
+      "place": "Village Pandori Gola, Tarn Taran"
+    },
+    "acts_sections": [
+      "BNS 118(1) - Voluntarily causing hurt by dangerous weapon",
+      "BNS 351(2) - Criminal intimidation",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Kulwant Singh",
+      "phone_masked": "+91-96XXX83428"
+    },
+    "accused": [
+      {
+        "name": "Sarabjit Singh",
+        "relative_name": "",
+        "address": "Pandori Gola, Tarn Taran"
+      },
+      {
+        "name": "Mandeep Singh",
+        "relative_name": "",
+        "address": "Pandori Gola, Tarn Taran"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Relative"
+    },
+    "narrative": "Due to an old dispute over irrigation water turn, the accused attacked the complainant with a kirpan and sticks in his fields at night, causing head injury.",
+    "language": "en",
+    "mo_summary": "Relatives attacked complainant with sharp weapon and sticks at night over an irrigation water dispute.",
+    "investigating_officer": {
+      "name": "Balwinder Singh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 31.451,
+    "lng": 74.926,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0289/2026",
+    "fir_reg_no": "29572031260289",
+    "state": "Karnataka",
+    "district": "Bengaluru City",
+    "police_station": "Whitefield",
+    "date_of_fir": "2026-06-01T10:01:00",
+    "occurrence": {
+      "date": "2026-05-30",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Tech park, Whitefield"
+    },
+    "acts_sections": [
+      "BNS 316(2) - Criminal breach of trust",
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property"
+    ],
+    "complainant": {
+      "name": "Director, software company",
+      "phone_masked": "+91-97XXX91301"
+    },
+    "accused": [
+      {
+        "name": "Karthik Reddy",
+        "relative_name": "",
+        "address": "Marathahalli, Bengaluru"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Employee"
+    },
+    "narrative": "Accused, working as accounts manager, diverted vendor payments of Rs 38 lakh to accounts held by his relatives over eight months by creating fake invoices.",
+    "language": "en",
+    "mo_summary": "Accounts manager diverted company vendor payments to relatives' accounts using fake invoices.",
+    "investigating_officer": {
+      "name": "Shwetha Gowda",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 12.971,
+    "lng": 77.751,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0326/2026",
+    "fir_reg_no": "29577002260326",
+    "state": "Karnataka",
+    "district": "Mysuru",
+    "police_station": "Devaraja",
+    "date_of_fir": "2026-07-27T11:14:00",
+    "occurrence": {
+      "date": "2026-07-27",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Sayyaji Rao Road, Mysuru"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Mahadevamma",
+      "phone_masked": "+91-98XXX99174"
+    },
+    "accused": [
+      {
+        "name": "Unknown woman",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "While the complainant was boarding a crowded city bus, an unknown woman cut her bag and stole a purse containing Rs 12,000 and a gold ring.",
+    "language": "en",
+    "mo_summary": "Purse stolen by cutting the bag of an elderly woman while boarding a crowded bus.",
+    "investigating_officer": {
+      "name": "Naveen Kumar B",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 12.315,
+    "lng": 76.655,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0363/2026",
+    "fir_reg_no": "34507001260363",
+    "state": "Jharkhand",
+    "district": "Deoghar",
+    "police_station": "Deoghar Town",
+    "date_of_fir": "2026-08-16T12:27:00",
+    "occurrence": {
+      "date": "2026-08-16",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Tower Chowk, Deoghar"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Pankaj Kesari",
+      "phone_masked": "+91-60XXX07047"
+    },
+    "accused": [
+      {
+        "name": "Chhotu Kumar",
+        "relative_name": "",
+        "address": "Jasidih, Deoghar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "During the Shravani Mela rush the accused picked the complainant's mobile phone from his pocket. He was caught by pilgrims and handed over to police.",
+    "language": "en",
+    "mo_summary": "Mobile phone pickpocketed in festival crowd; accused caught by the public.",
+    "investigating_officer": {
+      "name": "Sunil Murmu",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 24.487,
+    "lng": 86.702,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0400/2026",
+    "fir_reg_no": "32699007260400",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-08-09T13:40:00",
+    "occurrence": {
+      "date": "2026-08-09",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Guptipara bazar parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Asit Kumar Dhara",
+      "phone_masked": "+91-61XXX14920"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant parked his motorcycle outside the market in the evening and went to buy vegetables. On return after half an hour the motorcycle was missing.",
+    "language": "en",
+    "mo_summary": "Motorcycle parked outside the market stolen in the evening.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.13,
+    "lng": 88.473,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0437/2026",
+    "fir_reg_no": "32699007260437",
+    "state": "West Bengal",
+    "district": "Hooghly",
+    "police_station": "Balagarh",
+    "date_of_fir": "2026-08-20T14:53:00",
+    "occurrence": {
+      "date": "2026-08-19",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Balagarh ferry ghat parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Rupali Majhi",
+      "phone_masked": "+91-62XXX22793"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Scooter of the complainant parked at the ferry ghat parking in the evening was stolen while she had gone across the river.",
+    "language": "en",
+    "mo_summary": "Scooter parked at the ferry ghat parking stolen in the evening.",
+    "investigating_officer": {
+      "name": "Madhumita Ghosh",
+      "rank": "Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.132,
+    "lng": 88.475,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0474/2026",
+    "fir_reg_no": "24191021260474",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-06-09T15:06:00",
+    "occurrence": {
+      "date": "2026-06-05",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Online, complainant at C.G. Road, Navrangpura"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "IT Act 66D - Cheating by personation using computer resource",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Ketan Shah",
+      "phone_masked": "+91-63XXX30666"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant was added to a WhatsApp group offering stock tips and was told to install a trading app. The app showed large profits, and he deposited Rs 27,40,000 in eleven transactions for IPO allotment. Withdrawal was refused unless he paid a further 30 percent tax.",
+    "language": "en",
+    "mo_summary": "Victim added to a WhatsApp group with stock tips, induced to install a fake trading app showing false profits, then asked for more money before withdrawal.",
+    "investigating_officer": {
+      "name": "Bhargav",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation, bank accounts frozen",
+    "lat": 23.026,
+    "lng": 72.551,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0511/2026",
+    "fir_reg_no": "24191021260511",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-08-13T16:19:00",
+    "occurrence": {
+      "date": "2026-08-13",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Commercial complex, Ashram Road, Ahmedabad"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "IT Act 66C - Identity theft",
+      "IT Act 66D - Cheating by personation using computer resource",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "PSI Nandan (on behalf of State)",
+      "phone_masked": "+91-64XXX38539"
+    },
+    "accused": [
+      {
+        "name": "Dhaval Parmar",
+        "relative_name": "",
+        "address": "Naroda, Ahmedabad"
+      },
+      {
+        "name": "Rishabh Jain",
+        "relative_name": "",
+        "address": "Maninagar, Ahmedabad"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "On secret information a raid was conducted at night on an office running a call centre. Fourteen persons were found making internet calls to foreign nationals, posing as officers of a tax department and demanding payment through gift cards. 22 computers, scripts and lead sheets seized.",
+    "language": "en",
+    "mo_summary": "Illegal call centre calling foreign nationals at night, posing as tax officers and collecting payment through gift cards.",
+    "investigating_officer": {
+      "name": "Bhargav",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested, devices sent to FSL",
+    "lat": 23.028,
+    "lng": 72.553,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0548/2026",
+    "fir_reg_no": "24191034260548",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Sarkhej",
+    "date_of_fir": "2026-04-18T17:32:00",
+    "occurrence": {
+      "date": "2026-04-18",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "S.G. Highway near Sarkhej crossing"
+    },
+    "acts_sections": [
+      "BNS 281 - Rash driving on a public way",
+      "BNS 106(1) - Causing death by negligence"
+    ],
+    "complainant": {
+      "name": "Mitesh Rabari",
+      "phone_masked": "+91-65XXX46412"
+    },
+    "accused": [
+      {
+        "name": "Driver of car GJ-01-XXXX (name not known)",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A car driven at very high speed on the highway hit two persons on a scooter from behind at about 1 am and fled. The pillion rider died on the spot and the rider is under treatment.",
+    "language": "en",
+    "mo_summary": "Speeding car hit a scooter from behind on the highway at night and fled; one person died.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Vehicle identified from CCTV, driver absconding",
+    "lat": 22.985,
+    "lng": 72.495,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0585/2026",
+    "fir_reg_no": "24225012260585",
+    "state": "Gujarat",
+    "district": "Surat City",
+    "police_station": "Varachha",
+    "date_of_fir": "2026-07-12T09:45:00",
+    "occurrence": {
+      "date": "2026-07-12",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Mini Bazar, Varachha, Surat"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Bhavesh Kakadiya",
+      "phone_masked": "+91-66XXX54285"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "તા. 12/07/2026 ના રોજ સાંજે ફરિયાદીએ પોતાની મોટરસાઇકલ વરાછા મિની બજાર પાસે પાર્ક કરી હતી. અડધા કલાક પછી પરત આવતાં મોટરસાઇકલ જોવા મળી ન હતી. કોઈ અજાણ્યો ઇસમ હેન્ડલ લોક તોડી ચોરી કરી લઈ ગયો છે.",
+    "language": "gu",
+    "mo_summary": "Motorcycle parked near the market in the evening was stolen by breaking the handle lock.",
+    "investigating_officer": {
+      "name": "Anvika",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 21.205,
+    "lng": 72.853,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0062/2026",
+    "fir_reg_no": "24225012260062",
+    "state": "Gujarat",
+    "district": "Surat City",
+    "police_station": "Varachha",
+    "date_of_fir": "2026-03-11T10:58:00",
+    "occurrence": {
+      "date": "2026-03-11",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Near Hirabaug circle, Varachha, Surat"
+    },
+    "acts_sections": [
+      "BNS 309(4) - Robbery",
+      "BNS 118(1) - Voluntarily causing hurt by dangerous weapon",
+      "Arms Act 25 - Possession of illegal arms",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Employee of an angadia firm",
+      "phone_masked": "+91-67XXX62158"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, an angadia firm employee carrying polished diamonds worth Rs 1.8 crore, was intercepted in the evening by three persons on two bikes. One pointed a pistol, another hit him on the head, and they took the bag and fled towards Kamrej.",
+    "language": "en",
+    "mo_summary": "Three men on two bikes intercepted an angadia courier in the evening, threatened him with a pistol and robbed a bag of diamonds.",
+    "investigating_officer": {
+      "name": "Anvika",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 21.207,
+    "lng": 72.855,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0099/2026",
+    "fir_reg_no": "24225019260099",
+    "state": "Gujarat",
+    "district": "Surat City",
+    "police_station": "Salabatpura",
+    "date_of_fir": "2026-06-02T11:11:00",
+    "occurrence": {
+      "date": "2026-05-27",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Textile market, Ring Road, Surat"
+    },
+    "acts_sections": [
+      "BNS 316(2) - Criminal breach of trust",
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property"
+    ],
+    "complainant": {
+      "name": "Proprietor, textile trading firm",
+      "phone_masked": "+91-68XXX70031"
+    },
+    "accused": [
+      {
+        "name": "Naresh Agarwal",
+        "relative_name": "",
+        "address": "Reportedly of Jaipur, Rajasthan"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Business contact"
+    },
+    "narrative": "Accused purchased grey cloth worth Rs 64 lakh on credit over three months through a broker, paid the first two bills to win trust, then closed his shop and left without paying the remaining amount.",
+    "language": "en",
+    "mo_summary": "Trader bought cloth on credit, paid early bills to win trust, then closed the shop and left without paying.",
+    "investigating_officer": {
+      "name": "Adhira",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 21.189,
+    "lng": 72.838,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0136/2026",
+    "fir_reg_no": "24229008260136",
+    "state": "Gujarat",
+    "district": "Vadodara City",
+    "police_station": "Sayajigunj",
+    "date_of_fir": "2026-06-03T12:24:00",
+    "occurrence": {
+      "date": "2026-06-03",
+      "time_period": "Pahar 2 (06:00-09:00 hrs)",
+      "place": "Near Kamatibaug gate, Sayajigunj, Vadodara"
+    },
+    "acts_sections": [
+      "BNS 304(2) - Snatching"
+    ],
+    "complainant": {
+      "name": "Hansaben Patel",
+      "phone_masked": "+91-69XXX77904"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "તા. 03/06/2026 ના રોજ સવારે ફરિયાદી મંદિરેથી ઘરે પરત ફરી રહ્યા હતા ત્યારે બાઇક પર આવેલા બે અજાણ્યા ઇસમોએ ગળામાંથી સોનાની ચેઇન ઝૂંટવી લીધી અને ફતેગંજ તરફ ભાગી ગયા. ફરિયાદી વૃદ્ધ હોઈ પડી જતાં ઘૂંટણમાં ઈજા થઈ છે.",
+    "language": "gu",
+    "mo_summary": "Two unknown men on a bike snatched a gold chain from an elderly woman returning from the temple in the morning.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.313,
+    "lng": 73.183,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0173/2026",
+    "fir_reg_no": "24229008260173",
+    "state": "Gujarat",
+    "district": "Vadodara City",
+    "police_station": "Sayajigunj",
+    "date_of_fir": "2026-02-25T13:37:00",
+    "occurrence": {
+      "date": "2026-02-24",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Near railway station, Sayajigunj, Vadodara"
+    },
+    "acts_sections": [
+      "BNS 137(2) - Kidnapping"
+    ],
+    "complainant": {
+      "name": "Ramilaben Vasava",
+      "phone_masked": "+91-70XXX85777"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "Under 18",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant’s 9 year old son was playing outside the railway station while she was selling goods. He went missing in the afternoon. CCTV shows an unknown woman leading him towards the platform.",
+    "language": "en",
+    "mo_summary": "Child playing outside the railway station led away by an unknown woman in the afternoon.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Child recovered at Bharuch, accused arrested",
+    "lat": 22.315,
+    "lng": 73.185,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0210/2026",
+    "fir_reg_no": "24222001260210",
+    "state": "Gujarat",
+    "district": "Rajkot City",
+    "police_station": "Rajkot A Division",
+    "date_of_fir": "2026-07-30T14:50:00",
+    "occurrence": {
+      "date": "2026-07-30",
+      "time_period": "Pahar 1 (03:00-06:00 hrs)",
+      "place": "Ahmedabad highway near Kuvadva, Rajkot"
+    },
+    "acts_sections": [
+      "Gujarat Prohibition Act 65(e) - Import, transport or possession of liquor",
+      "Gujarat Prohibition Act 98(2) - Vehicle used for carrying liquor",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "PSI Divya (on behalf of State)",
+      "phone_masked": "+91-71XXX93650"
+    },
+    "accused": [
+      {
+        "name": "Mukesh Bishnoi",
+        "relative_name": "",
+        "address": "Sanchore, Rajasthan"
+      },
+      {
+        "name": "Jagdish Vaghela",
+        "relative_name": "",
+        "address": "Rajkot"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "During vehicle checking before dawn a truck carrying cattle feed bags was stopped on the highway. On search, 412 boxes of IMFL whisky and beer were found hidden under the bags. Driver and cleaner detained.",
+    "language": "en",
+    "mo_summary": "Truck stopped on the highway before dawn; boxes of liquor found hidden under cattle feed bags.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested, vehicle seized",
+    "lat": 22.303,
+    "lng": 70.805,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0247/2026",
+    "fir_reg_no": "24222001260247",
+    "state": "Gujarat",
+    "district": "Rajkot City",
+    "police_station": "Rajkot A Division",
+    "date_of_fir": "2026-05-11T15:03:00",
+    "occurrence": {
+      "date": "2026-05-09",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Gondal Road, Rajkot"
+    },
+    "acts_sections": [
+      "Gujarat Money-Lenders Act 40 - Money lending without licence",
+      "BNS 308(2) - Extortion",
+      "BNS 351(2) - Criminal intimidation"
+    ],
+    "complainant": {
+      "name": "Jayesh Dobariya",
+      "phone_masked": "+91-72XXX01523"
+    },
+    "accused": [
+      {
+        "name": "Bharat Boricha",
+        "relative_name": "",
+        "address": "Gondal Road, Rajkot"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Complainant borrowed Rs 5 lakh at 10 percent monthly interest from the accused, a moneylender without licence. Though he has repaid Rs 9 lakh, the accused took signed blank cheques and threatened to take over his shop.",
+    "language": "en",
+    "mo_summary": "Unlicensed moneylender charged very high interest, took signed blank cheques and threatened to take over the shop.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.305,
+    "lng": 70.807,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0284/2026",
+    "fir_reg_no": "24207003260284",
+    "state": "Gujarat",
+    "district": "Kutch East",
+    "police_station": "Gandhidham A Division",
+    "date_of_fir": "2026-08-06T16:16:00",
+    "occurrence": {
+      "date": "2026-08-06",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "Container freight station near Kandla port"
+    },
+    "acts_sections": [
+      "NDPS Act 8(c) - Prohibited dealing in narcotic drugs",
+      "NDPS Act 22 - Possession of psychotropic substances",
+      "NDPS Act 29 - Abetment and criminal conspiracy"
+    ],
+    "complainant": {
+      "name": "Officer of a central agency (on behalf of State)",
+      "phone_masked": "+91-73XXX09396"
+    },
+    "accused": [
+      {
+        "name": "Proprietor of an importing firm (name withheld)",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A container declared as gypsum powder was examined on specific intelligence. 38 kg of methamphetamine was found concealed inside false-bottom bags. The importing firm’s address was found to be bogus.",
+    "language": "en",
+    "mo_summary": "Synthetic drug concealed inside bags in an imported container declared as gypsum powder; importer address bogus.",
+    "investigating_officer": {
+      "name": "Anvika",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.085,
+    "lng": 70.143,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0321/2026",
+    "fir_reg_no": "24208001260321",
+    "state": "Gujarat",
+    "district": "Kutch West",
+    "police_station": "Bhuj City A Division",
+    "date_of_fir": "2026-06-22T17:29:00",
+    "occurrence": {
+      "date": "2026-06-21",
+      "time_period": "Pahar 3 (09:00-12:00 hrs)",
+      "place": "ATM kiosk, Station Road, Bhuj"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Karsanbhai Ahir",
+      "phone_masked": "+91-74XXX17269"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, a retired farmer, could not operate the ATM. An unknown person offered help, watched the PIN and swapped his card with a similar one. Rs 80,000 was withdrawn from another ATM within an hour.",
+    "language": "en",
+    "mo_summary": "Unknown person offered help at the ATM to an elderly man, watched the PIN, swapped the card and withdrew money.",
+    "investigating_officer": {
+      "name": "Adhira",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.233,
+    "lng": 69.658,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0358/2026",
+    "fir_reg_no": "24198017260358",
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "police_station": "Alang Marine",
+    "date_of_fir": "2026-03-26T09:42:00",
+    "occurrence": {
+      "date": "2026-03-26",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Plot 84, Alang ship-breaking yard"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Yard manager",
+      "phone_masked": "+91-75XXX25142"
+    },
+    "accused": [
+      {
+        "name": "Imtiyaz Sheikh",
+        "relative_name": "",
+        "address": "Trapaj, Bhavnagar"
+      },
+      {
+        "name": "Vijay Baraiya",
+        "relative_name": "",
+        "address": "Alang, Bhavnagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Former employee"
+    },
+    "narrative": "Security guard caught two persons at night loading copper cable and brass fittings from a dismantled ship into a tempo. About 600 kg of material recovered.",
+    "language": "en",
+    "mo_summary": "Copper cable and brass fittings stolen from a ship-breaking yard at night and loaded into a tempo.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 21.405,
+    "lng": 72.194,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0395/2026",
+    "fir_reg_no": "24203001260395",
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "police_station": "Jamnagar City A Division",
+    "date_of_fir": "2026-04-11T10:55:00",
+    "occurrence": {
+      "date": "2026-04-02",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Survey land near Lalpur bypass, Jamnagar"
+    },
+    "acts_sections": [
+      "Gujarat Land Grabbing (Prohibition) Act 4 - Land grabbing",
+      "BNS 336(3) - Forgery for purpose of cheating",
+      "BNS 351(2) - Criminal intimidation"
+    ],
+    "complainant": {
+      "name": "Rekhaben Nanda",
+      "phone_masked": "+91-76XXX33015"
+    },
+    "accused": [
+      {
+        "name": "Pravinsinh Jadeja",
+        "relative_name": "",
+        "address": "Jamnagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, a widow living in Mumbai, found that the accused had taken possession of her agricultural land, built a compound wall and prepared a forged power of attorney. When she objected she was threatened.",
+    "language": "en",
+    "mo_summary": "Accused took possession of an absent owner’s land using a forged power of attorney and threatened her.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.466,
+    "lng": 70.053,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0432/2026",
+    "fir_reg_no": "24212001260432",
+    "state": "Gujarat",
+    "district": "Mehsana",
+    "police_station": "Mehsana City A Division",
+    "date_of_fir": "2026-07-08T11:08:00",
+    "occurrence": {
+      "date": "2026-07-03",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Office near Modhera crossing, Mehsana"
+    },
+    "acts_sections": [
+      "Emigration Act 24 - Recruiting for emigration without registration",
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 336(3) - Forgery for purpose of cheating"
+    ],
+    "complainant": {
+      "name": "Alpesh Chaudhary",
+      "phone_masked": "+91-77XXX40888"
+    },
+    "accused": [
+      {
+        "name": "Hitesh Patel @ Bobby",
+        "relative_name": "",
+        "address": "Kalol, Gandhinagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Accused, working as an unregistered agent, took Rs 42 lakh promising to send the complainant and his wife abroad. He gave them a fake visa and bogus bank statements. They were sent back from a transit airport.",
+    "language": "en",
+    "mo_summary": "Unregistered agent took money to send a couple abroad and supplied a fake visa and bogus documents.",
+    "investigating_officer": {
+      "name": "Anvika",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.585,
+    "lng": 72.366,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0469/2026",
+    "fir_reg_no": "24196009260469",
+    "state": "Gujarat",
+    "district": "Banaskantha",
+    "police_station": "Palanpur Taluka",
+    "date_of_fir": "2026-05-15T12:21:00",
+    "occurrence": {
+      "date": "2026-05-15",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "NH-27 near Chandisar, Palanpur"
+    },
+    "acts_sections": [
+      "BNS 309(4) - Robbery",
+      "BNS 126(2) - Wrongful restraint",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Truck driver",
+      "phone_masked": "+91-78XXX48761"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Four persons in a car overtook the complainant’s truck carrying cumin seed on the highway at night, tied up the driver and cleaner, and drove the truck away. The empty truck was found 40 km away.",
+    "language": "en",
+    "mo_summary": "Four men in a car stopped a truck on the highway at night, tied up the driver and took the goods.",
+    "investigating_officer": {
+      "name": "Adhira",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 24.171,
+    "lng": 72.437,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0506/2026",
+    "fir_reg_no": "24230006260506",
+    "state": "Gujarat",
+    "district": "Valsad",
+    "police_station": "Vapi GIDC",
+    "date_of_fir": "2026-06-15T13:34:00",
+    "occurrence": {
+      "date": "2026-06-14",
+      "time_period": "Pahar 8 (00:00-03:00 hrs)",
+      "place": "Chemical unit, Phase 2, Vapi GIDC"
+    },
+    "acts_sections": [
+      "BNS 331(4) - House-breaking by night",
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Factory manager",
+      "phone_masked": "+91-79XXX56634"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "During the weekly shutdown the store room shutter of the factory was broken at night. Palladium catalyst worth Rs 22 lakh was stolen. Only someone who knew its value and location could have done this.",
+    "language": "en",
+    "mo_summary": "Factory store room shutter broken at night during weekly shutdown; costly catalyst stolen, insider knowledge suspected.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 20.373,
+    "lng": 72.906,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0543/2026",
+    "fir_reg_no": "24201004260543",
+    "state": "Gujarat",
+    "district": "Gandhinagar",
+    "police_station": "Sector 7",
+    "date_of_fir": "2026-02-12T14:47:00",
+    "occurrence": {
+      "date": "2026-02-09",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Sector 7, Gandhinagar"
+    },
+    "acts_sections": [
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 336(3) - Forgery for purpose of cheating",
+      "BNS 319(2) - Cheating by personation"
+    ],
+    "complainant": {
+      "name": "Nikunj Trivedi",
+      "phone_masked": "+91-80XXX64507"
+    },
+    "accused": [
+      {
+        "name": "Sanjay Mahida",
+        "relative_name": "",
+        "address": "Sector 24, Gandhinagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "Accused, posing as a personal assistant in the secretariat, took Rs 12 lakh from the complainant and four others promising clerk jobs, and gave them forged appointment letters.",
+    "language": "en",
+    "mo_summary": "Accused posing as a secretariat assistant took money for government jobs and issued forged appointment letters.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 23.219,
+    "lng": 72.644,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0580/2026",
+    "fir_reg_no": "24193001260580",
+    "state": "Gujarat",
+    "district": "Anand",
+    "police_station": "Anand Town",
+    "date_of_fir": "2026-05-11T15:00:00",
+    "occurrence": {
+      "date": "2026-04-29",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Sub-registrar office, Anand"
+    },
+    "acts_sections": [
+      "BNS 336(3) - Forgery for purpose of cheating",
+      "BNS 318(4) - Cheating and dishonestly inducing delivery of property",
+      "BNS 319(2) - Cheating by personation",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Power of attorney holder of an NRI owner",
+      "phone_masked": "+91-81XXX72380"
+    },
+    "accused": [
+      {
+        "name": "Ghanshyam Thakor",
+        "relative_name": "",
+        "address": "Karamsad, Anand"
+      },
+      {
+        "name": "Unknown woman impersonating the owner",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "A house belonging to an NRI woman living abroad was sold by producing another woman posing as the owner before the sub-registrar, with a forged identity card. The sale deed was registered for Rs 85 lakh.",
+    "language": "en",
+    "mo_summary": "House of an NRI owner sold by producing an impostor posing as the owner with a forged identity card.",
+    "investigating_officer": {
+      "name": "Anvika",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.561,
+    "lng": 72.956,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0057/2026",
+    "fir_reg_no": "24199001260057",
+    "state": "Gujarat",
+    "district": "Dahod",
+    "police_station": "Dahod Town",
+    "date_of_fir": "2026-08-24T16:13:00",
+    "occurrence": {
+      "date": "2026-08-24",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Village near Dahod town"
+    },
+    "acts_sections": [
+      "BNS 191(2) - Rioting",
+      "BNS 118(1) - Voluntarily causing hurt by dangerous weapon",
+      "BNS 324(4) - Mischief causing damage"
+    ],
+    "complainant": {
+      "name": "Ramsingbhai Damor",
+      "phone_masked": "+91-82XXX80253"
+    },
+    "accused": [
+      {
+        "name": "Kalubhai Bhabhor",
+        "relative_name": "",
+        "address": "Dahod"
+      },
+      {
+        "name": "Shankar Bhabhor",
+        "relative_name": "",
+        "address": "Dahod"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Relative"
+    },
+    "narrative": "Due to a dispute over the boundary of farm land, a group of about ten persons led by the accused attacked the complainant’s family with sticks and a sword and damaged the standing crop.",
+    "language": "en",
+    "mo_summary": "Group attacked a family with sticks and a sword over a farm boundary dispute and damaged the crop.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.844,
+    "lng": 74.262,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0094/2026",
+    "fir_reg_no": "24191021260094",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-04-08T17:26:00",
+    "occurrence": {
+      "date": "2026-04-08",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Outside a restaurant, C.G. Road, Navrangpura"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Paresh Shah",
+      "phone_masked": "+91-83XXX88126"
+    },
+    "accused": [
+      {
+        "name": "Vikram Solanki @ Vicky",
+        "relative_name": "",
+        "address": "Address not known"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant withdrew Rs 6,50,000 cash from the bank and kept the bag on the rear seat of his car. He parked outside a restaurant in the afternoon and went in for lunch. On return the rear window glass was broken and the cash bag was missing. CCTV shows two men on a motorcycle who had followed the car from the bank. One is identified as Vikram Solanki alias Vicky.",
+    "language": "en",
+    "mo_summary": "Victim followed from the bank after withdrawing cash; rear window glass of the parked car broken in the afternoon and the cash bag lifted by two men on a motorcycle.",
+    "investigating_officer": {
+      "name": "Bhargav",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.045,
+    "lng": 72.57,
+    "seed_group": "cluster-D"
+  },
+  {
+    "fir_id": "0131/2026",
+    "fir_reg_no": "24225019260131",
+    "state": "Gujarat",
+    "district": "Surat City",
+    "police_station": "Salabatpura",
+    "date_of_fir": "2026-05-19T09:39:00",
+    "occurrence": {
+      "date": "2026-05-19",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Ring Road near textile market, Surat"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Rajesh Jariwala",
+      "phone_masked": "+91-84XXX95999"
+    },
+    "accused": [
+      {
+        "name": "Vikrambhai Solanki",
+        "relative_name": "",
+        "address": "Reportedly of Ahmedabad"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant, a textile trader, withdrew Rs 4,20,000 from the bank for wage payment and parked his car near the market in the afternoon. Within ten minutes the side window glass was broken and the bag with cash taken. Two persons on a motorcycle were seen following him from the bank. Fingerprint on the door matched Vikrambhai Solanki.",
+    "language": "en",
+    "mo_summary": "Trader followed from the bank after cash withdrawal; side window glass of the parked car broken in the afternoon and the cash bag taken by two persons on a motorcycle.",
+    "investigating_officer": {
+      "name": "Adhira",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 21.179,
+    "lng": 72.828,
+    "seed_group": "cluster-D"
+  },
+  {
+    "fir_id": "0168/2026",
+    "fir_reg_no": "24229008260168",
+    "state": "Gujarat",
+    "district": "Vadodara City",
+    "police_station": "Sayajigunj",
+    "date_of_fir": "2026-06-23T10:52:00",
+    "occurrence": {
+      "date": "2026-06-23",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Near Sayajigunj bank branch, Vadodara"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage"
+    ],
+    "complainant": {
+      "name": "Dipakbhai Amin",
+      "phone_masked": "+91-85XXX03872"
+    },
+    "accused": [
+      {
+        "name": "V. Solanki",
+        "relative_name": "",
+        "address": "Address not known"
+      },
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "60+",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "તા. 23/06/2026 ના રોજ બપોરે ફરિયાદીએ બેંકમાંથી રૂ. 3,00,000 રોકડા ઉપાડી થેલો પોતાની કારમાં મૂક્યો હતો. કાર પાર્ક કરી દવા લેવા ગયા ત્યારે બાઇક પર આવેલા બે ઇસમોએ કારનો કાચ તોડી રોકડનો થેલો ચોરી લીધો. CCTV માં બંને ઇસમો બેંકથી પીછો કરતા દેખાય છે. એક ઇસમની ઓળખ V. Solanki ઉર્ફે વિકી તરીકે થઈ છે.",
+    "language": "gu",
+    "mo_summary": "Elderly victim followed from the bank after withdrawing cash; window glass of the parked car broken in the afternoon and the cash bag stolen by two men on a motorcycle.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.303,
+    "lng": 73.173,
+    "seed_group": "cluster-D"
+  },
+  {
+    "fir_id": "0205/2026",
+    "fir_reg_no": "24222001260205",
+    "state": "Gujarat",
+    "district": "Rajkot City",
+    "police_station": "Rajkot A Division",
+    "date_of_fir": "2026-07-28T11:05:00",
+    "occurrence": {
+      "date": "2026-07-28",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Yagnik Road, Rajkot"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Hiren Kotecha",
+      "phone_masked": "+91-86XXX11745"
+    },
+    "accused": [
+      {
+        "name": "Vikramsinh Solanky @ Vicky",
+        "relative_name": "",
+        "address": "Ahmedabad"
+      },
+      {
+        "name": "Dinesh Makwana",
+        "relative_name": "",
+        "address": "Address not known"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant withdrew Rs 8,00,000 cash from the bank and parked his car on Yagnik Road in the afternoon. The accused, who followed him from the bank on a motorcycle, broke the front window glass with a catapult and steel ball and lifted the cash bag. Both are seen in CCTV footage.",
+    "language": "en",
+    "mo_summary": "Victim followed from the bank after withdrawing cash; window glass of the parked car broken with a catapult in the afternoon and the cash bag lifted by two men on a motorcycle.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 22.291,
+    "lng": 70.793,
+    "seed_group": "cluster-D"
+  },
+  {
+    "fir_id": "0242/2026",
+    "fir_reg_no": "08332006260242",
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "police_station": "Hathipole",
+    "date_of_fir": "2026-08-18T12:18:00",
+    "occurrence": {
+      "date": "2026-08-18",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Near Delhi Gate, Udaipur"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Mahendra Jain",
+      "phone_masked": "+91-87XXX19618"
+    },
+    "accused": [
+      {
+        "name": "Vikram Solanki",
+        "relative_name": "",
+        "address": "Ahmedabad, Gujarat"
+      },
+      {
+        "name": "Dinesh Makwana",
+        "relative_name": "",
+        "address": "Ahmedabad, Gujarat"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant withdrew Rs 5,00,000 from the bank and parked his car near Delhi Gate in the afternoon. Two men on a motorcycle who followed him from the bank broke the window glass and took the cash bag. Traffic police caught both accused at a checkpoint with the bag, a catapult and steel balls.",
+    "language": "en",
+    "mo_summary": "Victim followed from the bank after cash withdrawal; window glass of the parked car broken in the afternoon and the cash bag taken; accused caught on a motorcycle with a catapult.",
+    "investigating_officer": {
+      "name": "Adhira",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested, property recovered",
+    "lat": 24.581,
+    "lng": 73.687,
+    "seed_group": "cluster-D"
+  },
+  {
+    "fir_id": "0279/2026",
+    "fir_reg_no": "24201004260279",
+    "state": "Gujarat",
+    "district": "Gandhinagar",
+    "police_station": "Sector 7",
+    "date_of_fir": "2026-07-14T13:31:00",
+    "occurrence": {
+      "date": "2026-07-14",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Sector 11 market, Gandhinagar"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft",
+      "BNS 324(4) - Mischief causing damage"
+    ],
+    "complainant": {
+      "name": "Bharatbhai Prajapati",
+      "phone_masked": "+91-88XXX27491"
+    },
+    "accused": [
+      {
+        "name": "Mahesh Thakor",
+        "relative_name": "",
+        "address": "Dehgam, Gandhinagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "46-60",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant withdrew Rs 2,50,000 cash from the bank and parked his car at the market in the afternoon. The window glass was broken and the cash bag stolen. Accused Mahesh Thakor, who followed him from the bank on a motorcycle, was caught by the public.",
+    "language": "en",
+    "mo_summary": "Victim followed from the bank after withdrawing cash; window glass of the parked car broken in the afternoon and the cash bag stolen by a man on a motorcycle.",
+    "investigating_officer": {
+      "name": "Divya",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Accused arrested",
+    "lat": 23.214,
+    "lng": 72.639,
+    "seed_group": "decoy"
+  },
+  {
+    "fir_id": "0316/2025",
+    "fir_reg_no": "24198017250316",
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "police_station": "Alang Marine",
+    "date_of_fir": "2025-01-19T14:44:00",
+    "occurrence": {
+      "date": "2025-01-16",
+      "time_period": "Pahar 5 (15:00-18:00 hrs)",
+      "place": "Alang yard office, Bhavnagar"
+    },
+    "acts_sections": [
+      "BNS 316(2) - Criminal breach of trust"
+    ],
+    "complainant": {
+      "name": "Partner of a scrap trading firm",
+      "phone_masked": "+91-89XXX35364"
+    },
+    "accused": [
+      {
+        "name": "Vikram Solanki",
+        "relative_name": "Jethabhai Solanki (father)",
+        "address": "Talaja, Bhavnagar"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Not applicable",
+      "age_range": "Not applicable",
+      "relation_to_accused": "Employee"
+    },
+    "narrative": "Accused, employed as a cashier, did not deposit sale proceeds of Rs 3,40,000 collected from customers over two months and stopped coming to work.",
+    "language": "en",
+    "mo_summary": "Cashier collected sale proceeds from customers and did not deposit them with the firm.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Charge sheet filed",
+    "lat": 21.412,
+    "lng": 72.201,
+    "seed_group": "control"
+  },
+  {
+    "fir_id": "0353/2025",
+    "fir_reg_no": "24191021250353",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2025-12-14T15:57:00",
+    "occurrence": {
+      "date": "2025-12-14",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Municipal Market parking, C.G. Road"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Jignesh Modi",
+      "phone_masked": "+91-90XXX43237"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant parked his scooter at the market parking in the evening. When he returned after shopping the scooter was missing.",
+    "language": "en",
+    "mo_summary": "Scooter parked at the market parking stolen in the evening.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.038,
+    "lng": 72.563,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0390/2026",
+    "fir_reg_no": "24191021260390",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-02-04T16:10:00",
+    "occurrence": {
+      "date": "2026-02-02",
+      "time_period": "Pahar 4 (12:00-15:00 hrs)",
+      "place": "Residential society, Navrangpura"
+    },
+    "acts_sections": [
+      "BNS 305 - Theft in a dwelling house"
+    ],
+    "complainant": {
+      "name": "Shilpaben Desai",
+      "phone_masked": "+91-91XXX51110"
+    },
+    "accused": [
+      {
+        "name": "Kamlesh Damor",
+        "relative_name": "",
+        "address": "Address not known"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "60+",
+      "relation_to_accused": "Domestic help"
+    },
+    "narrative": "Complainant, a senior citizen living alone, found gold bangles and Rs 45,000 missing from her cupboard. The accused, employed as a cook for two months, has not come to work since and his phone is switched off.",
+    "language": "en",
+    "mo_summary": "Domestic help employed by an elderly woman stole gold bangles and cash from the cupboard and disappeared.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.04,
+    "lng": 72.565,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0427/2026",
+    "fir_reg_no": "24191021260427",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-03-20T17:23:00",
+    "occurrence": {
+      "date": "2026-03-20",
+      "time_period": "Pahar 7 (21:00-24:00 hrs)",
+      "place": "Outside a cafe near the university"
+    },
+    "acts_sections": [
+      "BNS 115(2) - Voluntarily causing hurt",
+      "BNS 351(2) - Criminal intimidation",
+      "BNS 3(5) - Common intention"
+    ],
+    "complainant": {
+      "name": "Yash Rathod",
+      "phone_masked": "+91-92XXX58983"
+    },
+    "accused": [
+      {
+        "name": "Parth Chauhan",
+        "relative_name": "",
+        "address": "Naranpura, Ahmedabad"
+      },
+      {
+        "name": "Meet Vyas",
+        "relative_name": "",
+        "address": "Naranpura, Ahmedabad"
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Acquaintance"
+    },
+    "narrative": "After an argument over a parking space at night, the accused slapped the complainant, hit him with a helmet and threatened him.",
+    "language": "en",
+    "mo_summary": "Argument over a parking space at night; accused hit the complainant with a helmet and threatened him.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Charge sheet filed",
+    "lat": 23.042,
+    "lng": 72.567,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0464/2026",
+    "fir_reg_no": "24191021260464",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-07-09T09:36:00",
+    "occurrence": {
+      "date": "2026-07-09",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Law Garden parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Komal Bhatt",
+      "phone_masked": "+91-93XXX66856"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant parked her scooter at the Law Garden parking in the evening and went to the food stalls. On return the scooter was missing.",
+    "language": "en",
+    "mo_summary": "Scooter parked at the garden parking stolen in the evening.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.044,
+    "lng": 72.569,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0501/2026",
+    "fir_reg_no": "24191021260501",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-08-03T10:49:00",
+    "occurrence": {
+      "date": "2026-08-03",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Law Garden parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Darshan Panchal",
+      "phone_masked": "+91-94XXX74729"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Male",
+      "age_range": "18-30",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Motorcycle parked at the Law Garden parking in the evening was stolen. The handle lock was engaged.",
+    "language": "en",
+    "mo_summary": "Motorcycle parked at the garden parking stolen in the evening by breaking the handle lock.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.046,
+    "lng": 72.571,
+    "seed_group": "standalone"
+  },
+  {
+    "fir_id": "0538/2026",
+    "fir_reg_no": "24191021260538",
+    "state": "Gujarat",
+    "district": "Ahmedabad City",
+    "police_station": "Navrangpura",
+    "date_of_fir": "2026-08-22T11:02:00",
+    "occurrence": {
+      "date": "2026-08-22",
+      "time_period": "Pahar 6 (18:00-21:00 hrs)",
+      "place": "Law Garden parking"
+    },
+    "acts_sections": [
+      "BNS 303(2) - Theft"
+    ],
+    "complainant": {
+      "name": "Foram Joshi",
+      "phone_masked": "+91-95XXX82602"
+    },
+    "accused": [
+      {
+        "name": "Unknown",
+        "relative_name": "",
+        "address": ""
+      }
+    ],
+    "victim_profile": {
+      "gender": "Female",
+      "age_range": "31-45",
+      "relation_to_accused": "Stranger"
+    },
+    "narrative": "Complainant found her scooter missing from the Law Garden parking in the evening. This is the third vehicle theft reported from the same parking in two months.",
+    "language": "en",
+    "mo_summary": "Scooter parked at the garden parking stolen in the evening.",
+    "investigating_officer": {
+      "name": "Nandan",
+      "rank": "Police Sub-Inspector"
+    },
+    "status": "Under investigation",
+    "lat": 23.027,
+    "lng": 72.552,
+    "seed_group": "standalone"
+  }
+]

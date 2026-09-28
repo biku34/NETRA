@@ -1,0 +1,152 @@
+[
+  {
+    "id": "constable",
+    "level": 7,
+    "title": "Constable / Beat Officer",
+    "short": "Constable",
+    "persona": "Ct. Harsh",
+    "posting": "Beat 3, Navrangpura PS",
+    "scope": {
+      "kind": "beat",
+      "station": "Navrangpura",
+      "beat": "Beat 3"
+    },
+    "access": "View-only, local",
+    "canView": "Assigned beat's hotspot list, patrol brief for their zone",
+    "canDo": "Mark patrol as completed, submit ground observation note",
+    "cannot": "View other districts, see full FIR details, edit records",
+    "can": []
+  },
+  {
+    "id": "si",
+    "level": 5,
+    "title": "Sub-Inspector / Investigating Officer",
+    "short": "Sub-Inspector",
+    "persona": "SI Bhargav",
+    "posting": "Navrangpura PS, Ahmedabad City",
+    "scope": {
+      "kind": "assigned",
+      "station": "Navrangpura",
+      "officer": "Bhargav"
+    },
+    "access": "Case-level edit",
+    "canView": "Full FIR details assigned to them, repeat-offender matches",
+    "canDo": "Add/update FIR notes, confirm or reject an AI-flagged match",
+    "cannot": "Access drug risk reports, view other stations' FIRs",
+    "can": [
+      "firDetails",
+      "reviewMatch",
+      "addNotes"
+    ]
+  },
+  {
+    "id": "sho",
+    "level": 4,
+    "title": "Station House Officer",
+    "short": "SHO",
+    "persona": "Insp. Jainy",
+    "posting": "Navrangpura PS, Ahmedabad City",
+    "scope": {
+      "kind": "station",
+      "station": "Navrangpura"
+    },
+    "access": "Station-level",
+    "canView": "All FIRs, all patrol briefs, all hotspots within their PS jurisdiction",
+    "canDo": "Approve patrol redeployment, escalate a flagged pattern to district",
+    "cannot": "Cross-district data, drug intelligence report generation",
+    "can": [
+      "firDetails",
+      "escalate",
+      "ingest",
+      "addNotes"
+    ]
+  },
+  {
+    "id": "dysp",
+    "level": 3,
+    "title": "DySP / Circle Officer",
+    "short": "DySP",
+    "persona": "DySP Jatin",
+    "posting": "Ahmedabad West Circle",
+    "scope": {
+      "kind": "circle",
+      "name": "Ahmedabad West Circle",
+      "stations": [
+        "Navrangpura",
+        "Sarkhej"
+      ]
+    },
+    "access": "Multi-station",
+    "canView": "All stations under their circle, cross-PS repeat-offender links",
+    "canDo": "Approve cross-station gang linkage, reassign investigation",
+    "cannot": "District-wide drug risk report, system configuration",
+    "can": [
+      "firDetails",
+      "approveLinkage",
+      "ingest",
+      "addNotes"
+    ]
+  },
+  {
+    "id": "sp",
+    "level": 2,
+    "title": "Superintendent of Police",
+    "short": "SP",
+    "persona": "SP Bikram Sadhukhan",
+    "posting": "Ahmedabad City",
+    "scope": {
+      "kind": "district",
+      "district": "Ahmedabad City"
+    },
+    "access": "District-level, full",
+    "canView": "All FIRs, all drug risk scores, all hotspots in their district",
+    "canDo": "Generate monthly narcotics intelligence report, approve resource deployment",
+    "cannot": "Access other districts' raw data, modify AI model/scoring logic",
+    "can": [
+      "firDetails",
+      "ingest",
+      "addNotes"
+    ]
+  },
+  {
+    "id": "ig",
+    "level": 1,
+    "title": "State Nodal Officer / IG (Intelligence)",
+    "short": "IG Intelligence",
+    "persona": "IG Aastha Thakker",
+    "posting": "Gujarat State HQ",
+    "scope": {
+      "kind": "state",
+      "state": "Gujarat"
+    },
+    "access": "State-wide, full",
+    "canView": "All districts, aggregated trend dashboards, cross-district gang networks",
+    "canDo": "Approve inter-district task force alerts, export state-level reports",
+    "cannot": "Edit individual FIR content (view-only at this level)",
+    "can": [
+      "firDetails",
+      "approveTaskForce",
+      "addNotes",
+      "assistant"
+    ]
+  },
+  {
+    "id": "admin",
+    "level": 0,
+    "title": "System Admin",
+    "short": "System Admin",
+    "persona": "Anuj",
+    "posting": "Netra technical team",
+    "scope": {
+      "kind": "none"
+    },
+    "access": "Full technical access, no case data by default",
+    "canView": "System logs, model performance, user accounts",
+    "canDo": "Manage user roles, update AI prompts/thresholds, audit trail review",
+    "cannot": "View FIR/victim personal data unless explicitly elevated for debugging (logged)",
+    "can": [
+      "editScoring",
+      "viewAudit"
+    ]
+  }
+]

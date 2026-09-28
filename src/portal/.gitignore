@@ -1,0 +1,11 @@
+node_modules
+dist
+dev-dist
+.env
+.env.*
+!.env.example
+*.local
+backend/.venv
+backend/netra.db
+__pycache__
+.pytest_cache

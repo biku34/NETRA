@@ -1,0 +1,17 @@
+{
+  "station": "Gandhinagar District Model Station",
+  "total_units": 12,
+  "shift_structure": [
+    {"name": "day",    "start_hour": 6,  "end_hour": 14},
+    {"name": "evening","start_hour": 14, "end_hour": 22},
+    {"name": "night",  "start_hour": 22, "end_hour": 6}
+  ],
+  "current_assignments": [
+    {"zone_name": "Sector 21 Market",       "units": 3},
+    {"zone_name": "Sector 16 Commercial",   "units": 2},
+    {"zone_name": "Akshardham (Sector 20)", "units": 2},
+    {"zone_name": "Sector 7 Secretariat",   "units": 1},
+    {"zone_name": "Infocity",               "units": 2},
+    {"zone_name": "GIFT City",              "units": 2}
+  ]
+}

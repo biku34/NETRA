@@ -1,0 +1,18 @@
+# --- Core (Ring 0 / Ring 1) ---
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlmodel
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+h3
+python-dotenv
+pyarrow
+
+# --- Augmentation (Ring 2/3, wired but off by default) ---
+httpx
+anthropic

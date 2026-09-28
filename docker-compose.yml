@@ -1,0 +1,38 @@
+# Bob — one command brings up backend (:8000) + frontend (:3000).
+#   docker compose up --build
+#
+# Core + news augmentation. GDELT needs no key; set ANTHROPIC_API_KEY in your
+# shell (or a .env next to this file) to enable live Bob, else the offline
+# fallback renders the brief. Everything degrades gracefully (CR-6).
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: src/backend/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DISTRICT_BBOX: "22.96,72.48,23.28,72.70"   # Ahmedabad–Gandhinagar
+      H3_RES: "8"
+      RANDOM_SEED: "42"
+      Z_SPIKE_THRESHOLD: "2.0"
+      GDELT_ENABLED: "true"
+      FRONTEND_ORIGIN: "http://localhost:3000"
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/api/health').status==200 else 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: src/frontend/Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy

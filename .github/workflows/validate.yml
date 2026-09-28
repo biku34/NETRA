@@ -1,0 +1,42 @@
+# Validate Submission — checks the entry is structurally complete on every push.
+# (If you created your repo from the official hackathon template, keep the template's
+# copy of this file instead — the organisers' version is authoritative.)
+name: Validate Submission
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: submission.yaml is valid and filled
+        run: |
+          python - <<'PY'
+          import sys, yaml
+          d = yaml.safe_load(open("submission.yaml", encoding="utf-8"))
+          def need(path, v):
+              if v is None or (isinstance(v, str) and not v.strip()):
+                  sys.exit(f"submission.yaml: {path} is empty")
+          t, s = d.get("team") or {}, d.get("submission") or {}
+          need("team.name", t.get("name")); need("team.track", t.get("track"))
+          lead = t.get("lead") or {}
+          need("team.lead.name", lead.get("name")); need("team.lead.email", lead.get("email"))
+          need("submission.title", s.get("title"))
+          need("submission.problem_statement", s.get("problem_statement"))
+          need("submission.solution_summary", s.get("solution_summary"))
+          if not s.get("key_features"): sys.exit("submission.yaml: key_features is empty")
+          if "CHANGE-ME" in str(d): print("::warning::CHANGE-ME placeholders remain in submission.yaml")
+          print("submission.yaml OK")
+          PY
+      - name: Required files exist
+        run: |
+          for f in docs/setup-guide.md docs/problem-statement.md docs/solution-overview.md docs/architecture.md demo/demo-video-link.txt demo/live-demo-url.txt README.md CONTRIBUTING.md; do
+            [ -s "$f" ] || { echo "::error::missing or empty: $f"; exit 1; }
+          done
+      - name: Demo video link is not the placeholder
+        run: |
+          grep -q "REPLACE-ME" demo/demo-video-link.txt && echo "::warning::demo/demo-video-link.txt still has the placeholder" || true
+      - name: No secrets committed
+        run: |
+          if git ls-files | grep -E '(^|/)\.env$|\.env\.local$'; then
+            echo "::error::.env file committed"; exit 1; fi
+          echo "no .env files tracked"

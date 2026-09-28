@@ -1,0 +1,19 @@
+# Keep build contexts small and reproducible.
+src/backend/.venv/
+src/backend/.env
+src/backend/tests/
+**/__pycache__/
+*.pyc
+
+src/frontend/node_modules/
+src/frontend/.next/
+src/frontend/.env.local
+
+# regenerated inside the backend image at boot
+src/data/*.parquet
+src/data/*.db
+src/data/generation_manifest.json
+
+.git/
+.idea/
+.vscode/

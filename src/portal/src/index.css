@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/public-sans';
+
+@theme {
+  --font-sans: 'Public Sans Variable', 'Noto Sans', 'Nirmala UI', system-ui, sans-serif;
+
+  --color-canvas: #f2f4f7;
+  --color-surface: #ffffff;
+  --color-ink: #17212f;
+  --color-muted: #566173;
+  --color-line: #d9dee6;
+  --color-accent: #1b3a6b;
+  --color-accent-soft: #e8edf6;
+
+  /* risk colours are reserved for risk levels and review outcomes */
+  --color-high: #b42318;
+  --color-high-soft: #fdecea;
+  --color-medium: #8f5200;
+  --color-medium-soft: #fdf3dc;
+  --color-low: #0b6b3a;
+  --color-low-soft: #e3f4ea;
+
+  /* four tints of the accent for the score breakdown segments */
+  --color-seg-1: #1b3a6b;
+  --color-seg-2: #4a6ea8;
+  --color-seg-3: #86a3d0;
+  --color-seg-4: #bccbe6;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* two weights only: 400 and 600 */
+h1,
+h2,
+h3,
+strong,
+b,
+th {
+  font-weight: 600;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@keyframes skeleton {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+.skeleton {
+  background: var(--color-line);
+  border-radius: 6px;
+  animation: skeleton 1.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* map labels and tooltips follow the app's type, not the map library's */
+.leaflet-container {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+}
+
+.leaflet-tooltip.gang-label {
+  border: 1px solid var(--color-line);
+  color: var(--color-ink);
+  font-weight: 600;
+  box-shadow: none;
+}

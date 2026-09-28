@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+/* ---------------------------------------------------------------- tokens */
+/* Netra look — keep in sync with tailwind.config.ts */
+:root {
+  --font-sans: "Public Sans", "Noto Sans", "Nirmala UI", system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --bg: #f2f4f7;
+  --surface: #ffffff;
+  --surface-2: #f7f8fa;
+  --surface-3: #eef1f5;
+  --line: #d9dee6;
+  --line-strong: #c3cad5;
+
+  --ink: #17212f;
+  --muted: #566173;
+  --dim: #6b7585;
+
+  --accent: #1b3a6b; /* navy */
+  --accent-dim: #15305a;
+  --accent-soft: #e8edf6;
+  --accent-ring: rgba(27, 58, 107, 0.35);
+  --accent-glow: rgba(27, 58, 107, 0.18);
+
+  --aug: #5b3fa8; /* violet — augmentation layer */
+
+  /* risk colours are reserved for risk levels and review outcomes */
+  --risk-low: #0b6b3a;
+  --risk-mid: #8f5200;
+  --risk-high: #b42318;
+}
+
+/* ---------------------------------------------------------------- base */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* two weights only: 400 and 600 */
+h1,
+h2,
+h3,
+strong,
+b,
+th {
+  font-weight: 600;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #a7b0bd;
+  background-clip: padding-box;
+}
+
+.maplibregl-map {
+  font-family: inherit;
+}
+
+/* tabular numerals for all data figures */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------------------------------------- components */
+@layer components {
+  .card {
+    @apply rounded-lg border border-line bg-surface;
+  }
+  .card-2 {
+    @apply rounded-lg border border-line bg-surface-2;
+  }
+  .card-interactive {
+    @apply rounded-lg border border-line bg-surface transition-colors duration-150 hover:border-line-strong hover:bg-bg;
+  }
+
+  .btn {
+    @apply inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border border-transparent px-3.5 py-1.5 text-sm font-semibold transition-colors duration-150 disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn border-accent bg-accent text-white hover:bg-core-dim;
+  }
+  .btn-ghost {
+    @apply btn border-line bg-surface text-ink hover:bg-bg;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-md border border-line bg-bg px-2 py-0.5 text-[11px];
+  }
+
+  .section-label {
+    @apply text-[11px] font-semibold uppercase tracking-[0.06em] text-muted;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-md border px-2 py-0.5 text-[10.5px] font-semibold uppercase tracking-wide;
+  }
+
+  .stat-tile {
+    @apply rounded-lg border border-line bg-surface p-3.5;
+  }
+
+  .hairline {
+    @apply border-line;
+  }
+}
+
+/* skeleton pulse */
+@keyframes skeleton {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.skeleton {
+  background: var(--line);
+  border-radius: 6px;
+  animation: skeleton 1.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .skeleton {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------- SHO brief markdown */
+.brief-md {
+  color: var(--ink);
+}
+.brief-md h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+.brief-md h2 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin: 1.6rem 0 0.6rem;
+}
+.brief-md p {
+  margin: 0.4rem 0;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.brief-md ul {
+  margin: 0.4rem 0;
+  padding-left: 1.1rem;
+  list-style: none;
+}
+.brief-md li {
+  position: relative;
+  margin: 0.35rem 0;
+  padding-left: 0.9rem;
+  color: var(--ink);
+}
+.brief-md li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+.brief-md blockquote {
+  border: 1px solid transparent;
+  background: #fdf3dc;
+  color: var(--risk-mid);
+  padding: 0.6rem 0.9rem;
+  margin: 0.8rem 0;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.brief-md table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0.6rem 0;
+  font-size: 0.82rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.brief-md thead {
+  background: var(--bg);
+}
+.brief-md th,
+.brief-md td {
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+.brief-md th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.brief-md tbody tr:last-child td {
+  border-bottom: none;
+}
+.brief-md tbody tr:hover {
+  background: var(--surface-2);
+}
+.brief-md strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  /* structured brief: cards become plain black-on-white */
+  .brief-layout {
+    display: block !important;
+  }
+  .brief-layout * {
+    color: #111827 !important;
+    background: transparent !important;
+    border-color: #cbd5e1 !important;
+    box-shadow: none !important;
+  }
+  .brief-section {
+    break-inside: avoid;
+  }
+  .brief-md h2 {
+    color: #1b3a6b !important;
+  }
+  .brief-md p,
+  .brief-md li {
+    color: #1f2937 !important;
+  }
+  .brief-md blockquote {
+    color: #92400e !important;
+    background: #fef3c7 !important;
+  }
+  .brief-md table {
+    border-color: #cbd5e1 !important;
+  }
+  .brief-md th,
+  .brief-md td {
+    border-color: #cbd5e1 !important;
+  }
+  .brief-md thead {
+    background: #f1f5f9 !important;
+  }
+  .brief-md th {
+    color: #475569 !important;
+  }
+}
