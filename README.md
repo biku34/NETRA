@@ -16,7 +16,7 @@ repeat-offender detection).
 | | |
 |---|---|
 | **Team** | _ABnity_ |
-| **Track** | AI |
+| **Track** | AI & PREDICTIVE |
 | **Lead** | Aastha Thakker · aasthathakker.official@gmail.com |
 | **Members** | _Bikram Sadhukhan . bikramsadhukhan505@gmail.com_ |
 
