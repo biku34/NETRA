@@ -9,14 +9,14 @@
 # =============================================================================
 
 team:
-  name: "Team Netra"                   # REQUIRED — CHANGE-ME if your team name differs
+  name: "ABnity"                   # REQUIRED — CHANGE-ME if your team name differs
   track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: "Bikram Sadhukhan"           # REQUIRED
-    email: "smartseal.bikram@gmail.com" # REQUIRED
+    name: "Aastha Thakker"           # REQUIRED
+    email: "aasthathakker.official@gmail.com" # REQUIRED
   members:
     - name: "Bikram Sadhukhan"         # REQUIRED — Team member 1 (add more below)
-      email: "smartseal.bikram@gmail.com"
+      email: "bikramsadhukhan505@gmail.com"
 
 submission:
   title: "Netra — Predictive Crime Hotspot Intelligence"   # REQUIRED
