@@ -22,20 +22,32 @@ submission:
   title: "Netra — Predictive Crime Hotspot Intelligence"   # REQUIRED
 
   problem_statement: >                 # REQUIRED
-    A district Station House Officer (SHO) has limited patrol units and must decide,
+    Police stations file FIRs in isolation, so the same repeat offender or
+    organised gang operating across jurisdictions is recorded as unrelated
+    strangers. Investigators have no reliable way to see that a name, method
+    and timeline in one station match a crime already registered elsewhere,
+    which lets serial and cross-border offenders stay invisible. A district Station House Officer (SHO) has limited patrol units and must decide,
     every week, where to place them — today that leans on memory and last week's
     incident list, so crews are spread thin, repeat hotspots are missed, and there is
     no explainable, forward-looking view of where risk is concentrating or why.
 
   solution_summary: >                  # REQUIRED
-    Netra bins station incidents into H3 hexagons and fits a Poisson/negative-binomial
+    Netra ingests FIRs, extracts people, aliases and modus-operandi tags, and
+    scores every pair of FIRs on name similarity, MO overlap, description
+    similarity and closeness in time to surface repeat offenders and linked
+    networks with a transparent, auditable score breakdown. Netra bins station incidents into H3 hexagons and fits a Poisson/negative-binomial
     GLM on a leakage-free hex-week panel to predict each micro-zone's probability of an
     incident next week with per-driver explanations; a rolling-origin backtest proves it
     beats random and persistence baselines, a grounded LLM assistant answers questions
     strictly from each zone's on-screen data, and a weekly redeployment brief turns the
     ranking into a patrol plan the officer adjusts in plain language and approves.
 
-  key_features:                        # REQUIRED
+  key_features:   
+    - "FIR entity + modus-operandi extraction via IBM watsonx.ai Granite, with a local rule-engine fallback"
+    - "Explainable repeat-offender scoring (name 0.40, MO tags 0.25, description 0.20, time 0.15) with per-factor breakdown"
+    - "Linked-offender network detection across jurisdictions, validated to recover planted gangs with zero false links"
+    - "Natural-language records assistant powered by IBM Bob (question understanding only; FIR text never leaves the system)"
+    - "Role- and jurisdiction-aware access control, station crime trends, and a full audit trail"# REQUIRED
     - "Explainable weekly hotspot prediction (Poisson/NegBin GLM over an H3 hex-week panel) with ranked per-driver contributions"
     - "Rolling-origin backtest page proving accuracy: hit rate, PAI ~3.4x vs random patrol, PEI, and a persistence-baseline comparison"
     - "Grounded zone chat assistant (OpenAI-compatible LLM) hardened with server-built context, injection pre-filter, leak canary and rate limits"
@@ -50,11 +62,9 @@ submission:
     other: ["H3 hex grid", "pandas", "scikit-learn", "SciPy", "GDELT news API", "Resend email", "Docker Compose", "GitHub Actions"]
 
   what_we_are_most_proud_of: >
-    The backtest. Drawing a heatmap and claiming it predicts crime is easy; proving it is
-    not. Netra's accuracy page runs an honest rolling-origin evaluation — refit on the
-    past, predict the next week blind, measure what was caught — and reports PAI/PEI
-    against random and persistence baselines. Combined with per-driver explanations for
-    every zone, the officer sees why, not just where.
+    The explainable, zero-false-link matching engine: phonetic, alias-aware name matching finds repeat offenders that exact search misses, while a strict name-and-score gate keeps the false-link rate at zero across all nine planted networks in npm run validate — and every link shows exactly why it was drawn. 
+    The backtest. It is easy to draw a heatmap and claim it predicts crime; it is much harder to prove it. Netra's /hotspots/accuracy page runs an honest rolling-origin evaluation — train on the past, predict the next week blind, measure what was caught — and reports standard predictive-policing metrics (PAI, PEI) against random and persistence baselines. 
+The prediction engine is also fully explainable: every zone's risk decomposes into named driver contributions, so an officer sees why, not just where.
 
   known_limitations: >
     Incident data is synthetic (seeded generator for the Gandhinagar/Infocity
@@ -63,7 +73,7 @@ submission:
     rather than a live IBM Bob inference endpoint (a config-level swap), and the free
     tier's daily token caps can make it temporarily unavailable. The single-origin join
     of the two apps is a dev-server proxy, the sign-in gate is a convenience rather than
-    a security boundary, and the Drug Risk module is a placeholder.
+    a security boundary, and the Drug Risk module is a placeholder. Extraction and matching are tuned and validated on synthetic data; real FIR text will need re-tuning of thresholds. Synthetic data. Incidents come from a seeded generator scoped to the Infocity/Gandhinagar jurisdiction, not a live CCTNS feed. The modelling and metrics are real; the numbers are not.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
