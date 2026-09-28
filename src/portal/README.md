@@ -1,6 +1,6 @@
-# Netra — Unified Crime Intelligence Platform
+# Netra: Unified Crime Intelligence Platform
 
-PS10 (FIR intelligence and repeat-offender detection) is built. PS11 (drug hotspot risk) and PS12 (predictive hotspot mapping) are placeholders.
+PS10 (FIR intelligence and repeat-offender detection) is built & PS12 (predictive hotspot mapping).
 
 All FIR records are synthetic.
 
