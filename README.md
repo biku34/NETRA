@@ -37,6 +37,9 @@ random and persistence baselines. A **grounded LLM assistant** answers questions
 each zone's on-screen data, and a **weekly redeployment brief** turns the ranking into a
 concrete, officer-approved patrol plan. See [`docs/solution-overview.md`](docs/solution-overview.md).
 
+## Video Demo - https://drive.google.com/drive/folders/11OWqIMIex94b_EIQs1vAVusWM6UA_lqy?usp=sharing
+
+
 ## Key features
 
 1. **Explainable weekly hotspot prediction** — Poisson/NB GLM over an H3 hex-week panel;
