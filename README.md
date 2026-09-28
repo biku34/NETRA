@@ -1,4 +1,4 @@
-# Netra — Predictive Crime Hotspot Intelligence
+# Netra — Unified Crime Intelligence Platform
 
 > **Bob AI Hackathon submission.** Decision-support for a district Station House Officer (SHO).
 > **Netra recommends; the SHO decides. Not an automated order.**
