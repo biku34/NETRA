@@ -1,37 +1,79 @@
-# Bob AI Hackathon — Submission metadata (READ BY EVALUATORS FIRST)
-# Replace the CHANGE-ME values before you submit. Every field below must stay non-empty.
+# =============================================================================
+# HACKATHON SUBMISSION METADATA
+# =============================================================================
+# Instructions:
+#   - Fill in ALL required fields (marked with # REQUIRED)
+#   - Optional fields can be left as empty strings ""
+#   - Do NOT rename this file — the evaluation pipeline reads it by name
+#   - Use double quotes around all string values
+# =============================================================================
 
 team:
-  name: "CHANGE-ME (your team name)"      # e.g. "Team Netra"
-  track: "AI"                             # AI | DevOps | Sustainability | Open
+  name: "Team Netra"                   # REQUIRED — CHANGE-ME if your team name differs
+  track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: "Bikram Sadhukhan"              # CHANGE-ME if wrong
-    email: "smartseal.bikram@gmail.com"   # CHANGE-ME if wrong
+    name: "Bikram Sadhukhan"           # REQUIRED
+    email: "smartseal.bikram@gmail.com" # REQUIRED
   members:
-    - name: "Bikram Sadhukhan"            # CHANGE-ME — list every member
+    - name: "Bikram Sadhukhan"         # REQUIRED — Team member 1 (add more below)
       email: "smartseal.bikram@gmail.com"
 
 submission:
-  title: "Netra — Predictive Crime Hotspot Intelligence"
-  problem_statement: >
+  title: "Netra — Predictive Crime Hotspot Intelligence"   # REQUIRED
+
+  problem_statement: >                 # REQUIRED
     A district Station House Officer (SHO) has limited patrol units and must decide,
-    every week, where to place them. Today that decision leans on memory and last
-    week's incident list, so crews are spread thin and repeat hotspots are missed.
-    Netra turns ~6 months of station crime records into an explainable, ranked map of
-    the micro-zones most likely to see an incident in the coming week, so the SHO can
-    concentrate patrols where they matter and justify the call.
-  solution_summary: >
-    Netra bins incidents into H3 hexagons, fits a Poisson / negative-binomial GLM on a
-    leakage-free hex-week panel (KDE density, near-repeat signal, recency, seasonality,
-    festival calendar), and predicts each zone's probability of at least one incident
-    next week with per-driver contributions. A rolling-origin backtest proves the model
-    beats random and persistence baselines. An OpenAI-compatible LLM assistant answers
-    questions grounded strictly in each zone's on-screen data, and a redeployment brief
-    turns the ranking into a concrete, officer-approved patrol plan. It ships as one
-    module inside the Netra platform (FIR intelligence + hotspots).
-  key_features:
-    - "Explainable weekly hotspot prediction (Poisson/NB GLM) with per-zone driver contributions"
-    - "Rolling-origin backtest page proving accuracy (PAI ~3.4x vs random, PEI, vs persistence)"
-    - "Grounded zone chat assistant (OpenAI-compatible LLM) that answers only from page data, hardened against prompt injection"
-    - "Weekly SHO patrol-redeployment brief, adjustable in plain language and approved by the officer"
-    - "Interactive H3 risk map, spike alerts, and geo-correlated news/events"
+    every week, where to place them — today that leans on memory and last week's
+    incident list, so crews are spread thin, repeat hotspots are missed, and there is
+    no explainable, forward-looking view of where risk is concentrating or why.
+
+  solution_summary: >                  # REQUIRED
+    Netra bins station incidents into H3 hexagons and fits a Poisson/negative-binomial
+    GLM on a leakage-free hex-week panel to predict each micro-zone's probability of an
+    incident next week with per-driver explanations; a rolling-origin backtest proves it
+    beats random and persistence baselines, a grounded LLM assistant answers questions
+    strictly from each zone's on-screen data, and a weekly redeployment brief turns the
+    ranking into a patrol plan the officer adjusts in plain language and approves.
+
+  key_features:                        # REQUIRED
+    - "Explainable weekly hotspot prediction (Poisson/NegBin GLM over an H3 hex-week panel) with ranked per-driver contributions"
+    - "Rolling-origin backtest page proving accuracy: hit rate, PAI ~3.4x vs random patrol, PEI, and a persistence-baseline comparison"
+    - "Grounded zone chat assistant (OpenAI-compatible LLM) hardened with server-built context, injection pre-filter, leak canary and rate limits"
+    - "Weekly SHO patrol-redeployment brief, reshaped in plain language and Approve/Modify/Reject-recorded — nothing auto-dispatched"
+    - "Interactive deck.gl H3 risk map with spike alerts, geo-correlated news/events and zone compare"
+
+  tech_stack:
+    languages: ["Python", "TypeScript"]          # REQUIRED
+    frameworks: ["FastAPI", "Next.js 14", "React 19", "Vite", "statsmodels", "deck.gl", "MapLibre", "Tailwind CSS"]
+    ibm_technologies: ["IBM Bob-compatible OpenAI-style inference interface (assistant runs on Groq gpt-oss in this build)"]
+    databases: ["SQLite (SQLModel/SQLAlchemy)"]
+    other: ["H3 hex grid", "pandas", "scikit-learn", "SciPy", "GDELT news API", "Resend email", "Docker Compose", "GitHub Actions"]
+
+  what_we_are_most_proud_of: >
+    The backtest. Drawing a heatmap and claiming it predicts crime is easy; proving it is
+    not. Netra's accuracy page runs an honest rolling-origin evaluation — refit on the
+    past, predict the next week blind, measure what was caught — and reports PAI/PEI
+    against random and persistence baselines. Combined with per-driver explanations for
+    every zone, the officer sees why, not just where.
+
+  known_limitations: >
+    Incident data is synthetic (seeded generator for the Gandhinagar/Infocity
+    jurisdiction), not a live CCTNS feed — the modelling and metrics are real, the
+    numbers are not. The assistant currently runs on Groq's OpenAI-compatible endpoint
+    rather than a live IBM Bob inference endpoint (a config-level swap), and the free
+    tier's daily token caps can make it temporarily unavailable. The single-origin join
+    of the two apps is a dev-server proxy, the sign-in gate is a convenience rather than
+    a security boundary, and the Drug Risk module is a placeholder.
+
+# =============================================================================
+# ARTIFACT LOCATIONS
+# These paths are relative to the repo root. Only change if you moved files.
+# =============================================================================
+artifacts:
+  source_code: "src/"
+  setup_guide: "docs/setup-guide.md"
+  architecture_doc: "docs/architecture.md"
+  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
+  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"
