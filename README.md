@@ -38,6 +38,7 @@ each zone's on-screen data, and a **weekly redeployment brief** turns the rankin
 concrete, officer-approved patrol plan. See [`docs/solution-overview.md`](docs/solution-overview.md).
 
 ## Video Demo - https://drive.google.com/drive/folders/11OWqIMIex94b_EIQs1vAVusWM6UA_lqy?usp=sharing
+## Screenshots - https://drive.google.com/drive/folders/1hvt1m61S79YZeZi8-qQX5K56zlmS4bjG?usp=sharing
 
 
 ## Key features
