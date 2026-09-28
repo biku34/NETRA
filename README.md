@@ -15,10 +15,10 @@ repeat-offender detection).
 
 | | |
 |---|---|
-| **Team** | _CHANGE-ME (see `submission.yaml`)_ |
+| **Team** | _ABnity_ |
 | **Track** | AI |
-| **Lead** | Bikram Sadhukhan · smartseal.bikram@gmail.com |
-| **Members** | _see `submission.yaml`_ |
+| **Lead** | Aastha Thakker · aasthathakker.official@gmail.com |
+| **Members** | _Bikram Sadhukhan . bikramsadhukhan505@gmail.com_ |
 
 ## Problem statement
 
