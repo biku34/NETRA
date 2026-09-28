@@ -1,116 +1,161 @@
-# Netra — Unified Crime Intelligence Platform
+# Netra: Unified Crime Intelligence Platform
 
-> **Bob AI Hackathon submission.** Decision-support for a district Station House Officer (SHO).
-> **Netra recommends; the SHO decides. Not an automated order.**
+Netra turns isolated FIRs into recognised repeat offenders and cross-jurisdiction
+networks, and explains every link it draws. PS10 (FIR intelligence and
+repeat-offender detection) is built; PS12 (predictive hotspot mapping) is a
+placeholder.
 
-Netra turns ~6 months of station crime records into an explainable, ranked map of the
-micro-zones most likely to see an incident in the coming week — so a Station House Officer
-can concentrate limited patrols where they matter, and justify the call. It ships as the
-**Hotspots** module of the wider Netra platform (which also does FIR intelligence and
-repeat-offender detection).
-
----
+*All FIR records in this project are synthetic.*
 
 ## Team
 
-| | |
-|---|---|
-| **Team** | _ABnity_ |
-| **Track** | AI & PREDICTIVE |
-| **Lead** | Aastha Thakker · aasthathakker.official@gmail.com |
-| **Members** | _Bikram Sadhukhan . bikramsadhukhan505@gmail.com_ |
+- **Team:** ABnity
+- **Track:** AI-4
+- **Lead:** Aastha Thakker
+- **Members:** Bikram Sadhukhan
 
-## Problem statement
+> Update the team details above and in [`submission.yaml`](submission.yaml).
 
-A district SHO has limited patrol units and must decide, every week, where to place them.
-That decision usually leans on memory and last week's incident list, so crews are spread thin
-and repeat hotspots get missed. There is no explainable, forward-looking view of *where* risk
-is concentrating, or *why*. See [`docs/problem-statement.md`](docs/problem-statement.md).
+## Problem Statement
+
+Police stations file FIRs in isolation, so the same repeat offender or organised
+gang operating across stations, districts and states is recorded as unrelated
+strangers. Investigators have no reliable way to see that a name, method and
+timeline in front of them already match a crime registered elsewhere — letting
+serial and interstate offenders stay invisible. See
+[`docs/problem-statement.md`](docs/problem-statement.md).
 
 ## Solution
 
-Netra bins incidents into **H3 hexagons** and fits a **Poisson / negative-binomial GLM** on a
-leakage-free hex-week panel to predict each zone's probability of at least one incident next
-week, with **per-driver contributions** (hotspot density, near-repeat pattern, recency,
-seasonality, festival window, news). A **rolling-origin backtest** proves the model beats
-random and persistence baselines. A **grounded LLM assistant** answers questions using only
-each zone's on-screen data, and a **weekly redeployment brief** turns the ranking into a
-concrete, officer-approved patrol plan. See [`docs/solution-overview.md`](docs/solution-overview.md).
+Netra ingests FIRs, extracts people, aliases and modus-operandi tags, and scores
+every pair of FIRs on name similarity, MO overlap, description similarity and
+closeness in time to surface repeat offenders and linked networks — each with a
+transparent, auditable score breakdown. IBM watsonx.ai Granite performs entity
+extraction and IBM Bob interprets the officer's natural-language questions, while
+an on-device engine remains a fully functional fallback. See
+[`docs/solution-overview.md`](docs/solution-overview.md).
 
-## Video Demo - https://drive.google.com/drive/folders/11OWqIMIex94b_EIQs1vAVusWM6UA_lqy?usp=sharing
-## Screenshots - https://drive.google.com/drive/folders/1hvt1m61S79YZeZi8-qQX5K56zlmS4bjG?usp=sharing
+## Key Features
 
+- **Granite-powered extraction** of entities, aliases and MO tags, with a
+  deterministic local rule-engine fallback.
+- **Explainable repeat-offender scoring** — `0.40 × name + 0.25 × MO tags +
+  0.20 × description + 0.15 × time` — with a per-factor breakdown for every match.
+- **Cross-jurisdiction network detection**, validated to recover all planted
+  gangs with **zero false links**.
+- **IBM Bob records assistant** — Bob understands the question (follow-ups, other
+  languages, loose wording); the answer comes from the records, and FIR text
+  never leaves the system.
+- **Role- and jurisdiction-aware access control**, station crime trends, and a
+  full audit trail.
+- **Explainable weekly hotspot prediction** Poisson/NB GLM over an H3 hex-week panel; every zone shows the ranked drivers behind its risk (contribution to the log-rate).
+- **Accuracy you can check** a rolling-origin backtest page: hit rate, PAI (~3.4× vs random), PEI (efficiency vs the theoretical best), and a comparison against a persistence baseline, over the last 8 weeks. No look-ahead, no tuning to the answer.
+- **Weekly SHO brief** a patrol-redeployment plan the officer can reshape in plain language ("I only have 8 units", "keep 3 at the top zone") and Approve / Modify / Reject.
+- **Interactive risk map** H3 hexes coloured by risk, spike alerts, geo-correlated news/events, and side-by-side zone compare.
 
-## Key features
+## Tech Stack
 
-1. **Explainable weekly hotspot prediction** — Poisson/NB GLM over an H3 hex-week panel;
-   every zone shows the ranked drivers behind its risk (contribution to the log-rate).
-2. **Accuracy you can check** — a rolling-origin backtest page: hit rate, **PAI (~3.4× vs
-   random)**, PEI (efficiency vs the theoretical best), and a comparison against a persistence
-   baseline, over the last 8 weeks. No look-ahead, no tuning to the answer.
-3. **Grounded zone assistant** — an OpenAI-compatible LLM answers questions about a zone using
-   **only** the data shown on its page; hardened with a server-built context, a prompt-injection
-   pre-filter, a leak canary, and rate limits.
-4. **Weekly SHO brief** — a patrol-redeployment plan the officer can reshape in plain language
-   ("I only have 8 units", "keep 3 at the top zone") and Approve / Modify / Reject.
-5. **Interactive risk map** — H3 hexes coloured by risk, spike alerts, geo-correlated news/events,
-   and side-by-side zone compare.
+- **Frontend:** React 19, Vite, TypeScript, Tailwind CSS, Recharts, Leaflet (PWA)
+- **Backend:** FastAPI (Python 3.11), SQLite (PostgreSQL/PostGIS-ready)
+- **IBM technologies:** IBM watsonx.ai Granite 3 8B (extraction), IBM Bob via Bob
+  Shell (assistant question understanding)
+- **Engine:** phonetic/alias-aware name matching, sentence embeddings with a
+  TF-IDF fallback
+- **Backend**: Python, FastAPI, SQLModel/SQLite, pandas/NumPy, statsmodels (Poisson/NB GLM), scikit-learn, SciPy, H3 (Uber hex grid).
+-**Hotspots frontend**: Next.js 14 (React 18, TypeScript), deck.gl + MapLibre + react-map-gl, TanStack Query, Zustand, Tailwind.
+- **Platform shell**: React 19 + Vite, React Router, Recharts, Leaflet, Radix UI.
+- **LLM assistant**: OpenAI-compatible chat completions (Groq gpt-oss in the current build; see IBM Bob integration below).
+- **Email**: Resend. News: GDELT (with an offline event-calendar fallback).
 
-## Tech stack
+## How to Run
 
-- **Backend:** Python, FastAPI, SQLModel/SQLite, pandas/NumPy, **statsmodels** (Poisson/NB GLM),
-  scikit-learn, SciPy, **H3** (Uber hex grid).
-- **Hotspots frontend:** Next.js 14 (React 18, TypeScript), deck.gl + MapLibre + react-map-gl,
-  TanStack Query, Zustand, Tailwind.
-- **Platform shell:** React 19 + Vite, React Router, Recharts, Leaflet, Radix UI.
-- **LLM assistant:** OpenAI-compatible chat completions (Groq `gpt-oss` in the current build;
-  see *IBM Bob integration* below).
-- **Email:** Resend. **News:** GDELT (with an offline event-calendar fallback).
+Full instructions (including first-time setup) are in
+[`docs/setup-guide.md`](docs/setup-guide.md). In short, from the repository root:
 
-## How to run
-
-Full, tested steps are in [`docs/setup-guide.md`](docs/setup-guide.md). Quick start (Windows):
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\start-netra.ps1
+```bash
+# Terminal 1 — API (first start loads the embedding model, ~20s)
+src/backend/.venv/Scripts/python -m uvicorn app.main:app --app-dir src/backend --port 8000
 ```
 
-Then open **http://localhost:5173**, sign in with the dev login in the service `.env` files (see the setup guide),
-and click **Hotspots**. Four services start: platform shell (5173), Hotspots module (3000),
-Hotspots API (8000), FIR API (8001).
+```bash
+# Terminal 2 — dashboard
+cd src/frontend && npm run dev
+```
 
-## IBM Bob integration
+Open http://localhost:5173 and sign in with the development login (`123` / `123`).
+If the API is not running, the dashboard works on-device with the built-in
+records.
 
-The zone assistant is built against the **OpenAI-compatible chat-completions** interface, the
-same shape IBM Bob's inference API exposes, so the LLM provider is a configuration choice rather
-than hard-wired. The current build runs the assistant on Groq's `gpt-oss` models. See
-[`docs/architecture.md`](docs/architecture.md) for where the LLM sits in the data flow and
-[Known limitations](#known-limitations) for an honest note on the IBM Bob endpoint.
+**Checks:**
+
+```bash
+cd src/frontend && npm run validate
+```
+
+```bash
+src/backend/.venv/Scripts/python -m pytest src/backend -q
+```
 
 ## Demo
 
-- **Video:** see [`demo/demo-video-link.txt`](demo/demo-video-link.txt)
-- **Live demo:** see [`demo/live-demo-url.txt`](demo/live-demo-url.txt)
-- **Screenshots:** [`demo/screenshots/`](demo/screenshots/)
+- **Video:** https://drive.google.com/drive/folders/11OWqIMIex94b_EIQs1vAVusWM6UA_lqy?usp=sharing
+- **Live demo:**  (currently NOT DEPLOYED)
+- **Screenshots:** https://drive.google.com/drive/folders/1hvt1m61S79YZeZi8-qQX5K56zlmS4bjG?usp=sharing
 
-## Known limitations
+## Repository Structure
 
-- **Synthetic data.** Incidents come from a seeded generator scoped to the Infocity/Gandhinagar
-  jurisdiction, not a live CCTNS feed. The modelling and metrics are real; the numbers are not.
-- **IBM Bob endpoint not live in this build.** The assistant is provider-agnostic and was wired
-  to a Bob provider during development, but the final build runs on Groq because a verified Bob
-  inference endpoint/key was not available. Swapping to Bob is a config change in the LLM client.
-- **Free-tier LLM limits.** The public Groq tier caps daily tokens per model; under heavy use the
-  assistant can return "unavailable" until the quota resets.
-- **Dev setup, not production.** A dev-server proxy joins the modules on one origin; the sign-in
-  gate is a convenience, not a security boundary, and the Hotspots API has no auth of its own.
-- **Drug-risk module** is a placeholder ("coming soon").
+```
+├── submission.yaml        Structured metadata (read first by evaluators)
+├── README.md              This file
+├── docs/                  Problem, solution, architecture, setup guide
+├── demo/                  Demo video link, live-demo URL, screenshots
+├── presentation/          Slide deck
+└── src/                   All source code
+    ├── frontend/          React + Vite dashboard
+    ├── backend/           FastAPI service
+    └── shared/            Extraction rules + roles, used by both
+```
 
-## What we're most proud of
+## API
 
-The **backtest**. It is easy to draw a heatmap and claim it predicts crime; it is much harder to
-*prove* it. Netra's `/hotspots/accuracy` page runs an honest rolling-origin evaluation — train on
-the past, predict the next week blind, measure what was caught — and reports standard
-predictive-policing metrics (PAI, PEI) against random and persistence baselines. The prediction
-engine is also fully **explainable**: every zone's risk decomposes into named driver contributions,
-so an officer sees *why*, not just *where*.
+| Method | Path | Purpose |
+|---|---|---|
+| POST | `/auth/login` | Sign in, returns a token |
+| POST | `/auth/role` | Switch role (development only) |
+| GET | `/snapshot` | Everything the dashboard needs for the signed-in role |
+| POST | `/fir/ingest` | Batch upload FIRs (`{"firs": [...]}`) |
+| GET | `/fir` | FIRs in the caller's jurisdiction |
+| GET | `/fir/{reg_no}` | One FIR with extracted entities |
+| GET | `/fir/{reg_no}/matches` | Repeat-offender matches with score breakdown |
+| GET | `/networks` | Linked-offender networks |
+| GET | `/station/{station}/trend` | Station crime trend summary |
+| POST | `/reviews` | Confirm, reject, escalate or approve a flag |
+| POST | `/fir/{reg_no}/notes` | Add a case note |
+| GET, PUT | `/config` | Scoring weights and thresholds (PUT: System Admin) |
+| GET | `/audit` | Audit trail (System Admin) |
+
+Interactive documentation: http://localhost:8000/docs
+
+## Scoring
+
+```
+score = 0.40 × name match + 0.25 × MO tag overlap + 0.20 × MO description similarity + 0.15 × closeness in time
+```
+
+Two FIRs are linked only when the name match is at least 0.80 **and** the score
+is at least 0.60.
+
+## Known Limitations
+
+- Extraction and matching are tuned and validated on synthetic data; real FIR
+  text will need re-tuning of thresholds.
+- Synthetic data. Incidents come from a seeded generator scoped to the Infocity/Gandhinagar jurisdiction, not a live CCTNS feed. The modelling and metrics are real; the numbers are not.
+
+## What We're Most Proud Of
+
+The **explainable, zero-false-link matching engine**: phonetic, alias-aware name
+matching finds repeat offenders that exact search misses, while a strict
+name-and-score gate keeps the false-link rate at zero across all nine planted
+networks in `npm run validate` — and every link shows exactly why it was drawn.
+
+The backtest. It is easy to draw a heatmap and claim it predicts crime; it is much harder to prove it. Netra's /hotspots/accuracy page runs an honest rolling-origin evaluation — train on the past, predict the next week blind, measure what was caught — and reports standard predictive-policing metrics (PAI, PEI) against random and persistence baselines. The prediction engine is also fully explainable: every zone's risk decomposes into named driver contributions, so an officer sees why, not just where.
